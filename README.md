@@ -10,8 +10,36 @@ Paulo Lacerda: paulolacerda@hotmail.com<br>
 Wagner Maurício: wmauriciu@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
+Este documento contém a especificação do projeto do banco de dados <Projeto Hidra> 
 <br>e motivação da escolha realizada. <br>
+
+> Considerando que Jardim Camburi foi o bairro atendido pelo Corpo de Bombeiros Militar do Espírito Santo (CBMES) com o maior número de incêndios urbanos em 2017
+
+Proposta para um sistema que armazene informações sobre os hidrantes localizados em
+Jardim Camburi, Vitória - ES, haja vista que o bairro teve o maior número de atendimentos de
+incêndio urbano realizados pelo CBMES no ano de 2017.
+Entende-se por incêndio urbano os seguintes atendimentos: estabelecimento comercial, ed.
+unifamiliar, ed. multifamiliar, terreno baldio, veículo.
+Algumas informações relevantes sobre os hidrantes que devem ser consideradas:
+ Localização – gerar mapa (latitude e longitude ou gps?)
+ Público ou privado?
+ Está em operação? Tem água? (sensores de fluxo)
+ Tipo - (coluna, parede, recalque, etc...)
+ Medidas
+ Quantas conexões possui?
+ Qual a vazão (lts/min) ?
+Localização – gerar mapa (latitude e longitude ou gps?)
+Público ou privado?
+Está em operação? Tem água? (sensores de fluxo)
+Tipo - (coluna, parede, recalque, etc...)
+Medidas
+Quantas conexões possui?
+Qual a vazão (lts/min) ?
+Ao final dos trabalhos, espera-se entregar um sistema que informe os dados dos hidrantes em
+e permita alterações em tempo real, sendo estes visualizados sobre um mapa da região.
+O uso de sensores poderá ser visto na localização dos hidrantes, no controle do fluxo da água e
+na checagem de ocupação das vagas de estacionamento mais próximas.
+
 
 > A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
  
