@@ -10,49 +10,28 @@ Paulo Lacerda: paulolacerda@hotmail.com<br>
 Wagner Maurício: wmauriciu@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <Projeto Hidra> 
-<br>e motivação da escolha realizada. <br>
+<br>
+> Considerando que a Cesan e o CBMES utilizam sistemas diferentes para controle dos hidrantes, dificultando a comunicação entre as instituições.
 
-> Considerando que Jardim Camburi foi o bairro atendido pelo Corpo de Bombeiros Militar do Espírito Santo (CBMES) com o maior número de incêndios urbanos em 2017
+> Considerando que as alterações feitas pela Cesan (manuteção do hidrante, manutenção da rede de esgoto, etc...) só são descobertas pelo CBMES se for feito um contato telefônico entre stackholders.
 
-Proposta para um sistema que armazene informações sobre os hidrantes localizados em
-Jardim Camburi, Vitória - ES, haja vista que o bairro teve o maior número de atendimentos de
-incêndio urbano realizados pelo CBMES no ano de 2017.
-Entende-se por incêndio urbano os seguintes atendimentos: estabelecimento comercial, ed.
-unifamiliar, ed. multifamiliar, terreno baldio, veículo.
-Algumas informações relevantes sobre os hidrantes que devem ser consideradas:
- Localização – gerar mapa (latitude e longitude ou gps?)
- Público ou privado?
- Está em operação? Tem água? (sensores de fluxo)
- Tipo - (coluna, parede, recalque, etc...)
- Medidas
- Quantas conexões possui?
- Qual a vazão (lts/min) ?
-Localização – gerar mapa (latitude e longitude ou gps?)
-Público ou privado?
-Está em operação? Tem água? (sensores de fluxo)
-Tipo - (coluna, parede, recalque, etc...)
-Medidas
-Quantas conexões possui?
-Qual a vazão (lts/min) ?
-Ao final dos trabalhos, espera-se entregar um sistema que informe os dados dos hidrantes em
-e permita alterações em tempo real, sendo estes visualizados sobre um mapa da região.
-O uso de sensores poderá ser visto na localização dos hidrantes, no controle do fluxo da água e
-na checagem de ocupação das vagas de estacionamento mais próximas.
+> Considerando que Jardim Camburi foi o bairro atendido pelo Corpo de Bombeiros Militar do Espírito Santo (CBMES) com o maior número de incêndios urbanos em 2017.
 
-
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
- 
+> Esta é uma proposta de um sistema que armazene, permita alterações e mostre informações em tempo real, plotadas num mapa, sobre os hidrantes localizados em Jardim Camburi, Vitória - ES, visando melhorar o atendimento do CBMES a ocorrências de incêndio urbano.<br>  
 
 ### 3.MINI-MUNDO Novo<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+O sistema proposto para o CBMES/Cesan armazenará as seguintes informações sobre os hidrantes: endereço, latitude, longitude, tipo, quantidade e tamanho de conexões, vazão padrão, vazão máxima, status dizendo se está em manutenção ou aguardando alguma mudança da rede, status e quando e por quem foi feita a última atualização sobre o hidrante. Será necessário guardar informações específicas das manutenções realizadaas, a saber: status, data, hora, descrição do trabalho realizado e o responsável pela manutenção. Vale lembrar que cada hidrante pode mais de uma manutenção ao longo do tempo de vida e será necessário guardar esse histórico, facilitando um possível  relatório das manutenções.<br>
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+Conexões também tem características específicas a serem armazenadas como: tipo, quantidade e tamanho. Por fim, endereço também deve ser armazenado de forma específica, guardando as seguintes informações: CEP, bairro, rua, número e ponto de referência.<br>
+
+Cada usuário que operar o sistema deve possuir um usuário e senha para tal, de modo ser possível identificar quem fez as alterações. Dados como: nome, login, senha e perfil deverão ser considerados.<br>
+
+Após o cadastramento de cada hidrante, o sistema deverá gerar um novo mapa com a geolocalização, identificando-o com uma cor que dependerá do seu status. As informações do hidrante poderão ser vistas a partir de um clique sobre a marcação do mesmo no mapa.<br>
+
+Relatórios de hidrantes operantes, em manuteção e inoperantes são o mínimo que o sistema deve entregar.<br>
+
+### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
