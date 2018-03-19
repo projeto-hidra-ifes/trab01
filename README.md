@@ -21,7 +21,7 @@ Wagner Maurício: wmauriciu@gmail.com<br>
 
 ### 3.MINI-MUNDO<br>
 
-O sistema proposto para o CBMES/Cesan armazenará as seguintes informações sobre os hidrantes: endereço, latitude, longitude, tipo, quantidade e tamanho de conexões, vazão padrão, vazão máxima, status dizendo se está em manutenção ou aguardando alguma mudança da rede, status e quando e por quem foi feita a última atualização sobre o hidrante. Será necessário guardar informações específicas das manutenções realizadaas, a saber: status, data, hora, descrição do trabalho realizado e o responsável pela manutenção. Vale lembrar que cada hidrante pode mais de uma manutenção ao longo do tempo de vida e será necessário guardar esse histórico, facilitando um possível  relatório das manutenções.<br>
+O sistema proposto para o CBMES/Cesan armazenará as seguintes informações sobre os hidrantes: endereço, latitude, longitude, tipo, quantidade e tamanho de conexões, vazão padrão, vazão máxima, status dizendo se está em manutenção ou aguardando alguma mudança da rede, status e quando e por quem foi feita a última atualização sobre o hidrante. Será necessário guardar informações específicas das manutenções realizadaas, a saber: status, data, hora, descrição do trabalho realizado e o responsável pela manutenção. Vale lembrar que cada hidrante pode receber mais de uma manutenção ao longo do tempo de vida e será necessário guardar esse histórico, facilitando um possível  relatório das manutenções.<br>
 
 Conexões também tem características específicas a serem armazenadas como: tipo, quantidade e tamanho. Por fim, endereço também deve ser armazenado de forma específica, guardando as seguintes informações: CEP, bairro, rua, número e ponto de referência.<br>
 
