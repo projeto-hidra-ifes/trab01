@@ -1,4 +1,4 @@
-# TRABALHO 01:  Título do Trabalho
+# TRABALHO 01:  Projeto Hidra
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
@@ -10,16 +10,16 @@ Paulo Lacerda: paulolacerda@hotmail.com<br>
 Wagner Maurício: wmauriciu@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-<br>
+
 > Considerando que a Cesan e o CBMES utilizam sistemas diferentes para controle dos hidrantes, dificultando a comunicação entre as instituições.
 
-> Considerando que as alterações feitas pela Cesan (manuteção do hidrante, manutenção da rede de esgoto, etc...) só são descobertas pelo CBMES se for feito um contato telefônico entre stackholders.
+> Considerando que as alterações feitas pela Cesan (manuteção do hidrante, manutenção da rede de água, etc...) só são descobertas pelo CBMES se for feito um contato telefônico entre stackholders.
 
 > Considerando que Jardim Camburi foi o bairro atendido pelo Corpo de Bombeiros Militar do Espírito Santo (CBMES) com o maior número de incêndios urbanos em 2017.
 
 > Esta é uma proposta de um sistema que armazene, permita alterações e mostre informações em tempo real, plotadas num mapa, sobre os hidrantes localizados em Jardim Camburi, Vitória - ES, visando melhorar o atendimento do CBMES a ocorrências de incêndio urbano.<br>  
 
-### 3.MINI-MUNDO Novo<br>
+### 3.MINI-MUNDO<br>
 
 O sistema proposto para o CBMES/Cesan armazenará as seguintes informações sobre os hidrantes: endereço, latitude, longitude, tipo, quantidade e tamanho de conexões, vazão padrão, vazão máxima, status dizendo se está em manutenção ou aguardando alguma mudança da rede, status e quando e por quem foi feita a última atualização sobre o hidrante. Será necessário guardar informações específicas das manutenções realizadaas, a saber: status, data, hora, descrição do trabalho realizado e o responsável pela manutenção. Vale lembrar que cada hidrante pode mais de uma manutenção ao longo do tempo de vida e será necessário guardar esse histórico, facilitando um possível  relatório das manutenções.<br>
 
