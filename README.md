@@ -25,7 +25,9 @@ O sistema proposto para o CBMES/Cesan armazenará as seguintes informações sob
 
 Conexões também tem características específicas a serem armazenadas como: tipo, quantidade e tamanho. Por fim, endereço também deve ser armazenado de forma específica, guardando as seguintes informações: CEP, bairro, rua, número e ponto de referência.<br>
 
-Cada usuário que operar o sistema deve possuir um usuário e senha para tal, de modo ser possível identificar quem fez as alterações. Dados como: nome, login, senha e perfil deverão ser considerados.<br>
+[Cada usuário que operar o sistema deve possuir um usuário e senha para tal, de modo ser possível identificar quem fez as alterações. Dados como: nome, login, senha e perfil deverão ser considerados.<br>]
+
+O sistema deve possuir um gerenciador de usuário onde conste o ID do usuário, tipo de perfil, Nome completo ou Razão Social, endereço e telefones para contato.
 
 Após o cadastramento de cada hidrante, o sistema deverá gerar um novo mapa com a geolocalização, identificando-o com uma cor que dependerá do seu status. As informações do hidrante poderão ser vistas a partir de um clique sobre a marcação do mesmo no mapa.<br>
 
