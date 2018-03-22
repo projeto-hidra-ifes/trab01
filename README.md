@@ -27,9 +27,10 @@ Conexões também tem características específicas a serem armazenadas como: ti
 
 O sistema deve possuir um gerenciador de usuário onde conste o ID do usuário, tipo de perfil, Nome completo ou Razão Social, endereço e telefones para contato.
 
-Após o cadastramento de cada hidrante, o sistema deverá gerar um novo mapa com a geolocalização, identificando-o com uma cor que dependerá do seu status. As informações do hidrante poderão ser vistas a partir de um clique sobre a marcação do mesmo no mapa.<br>
+[Após o cadastramento de cada hidrante, o sistema deverá gerar um novo mapa com a geolocalização, identificando-o com uma cor que dependerá do seu status. As informações do hidrante poderão ser vistas a partir de um clique sobre a marcação do mesmo no mapa.<br>
+Relatórios de hidrantes operantes, em manuteção e inoperantes são o mínimo que o sistema deve entregar.<br>]
 
-Relatórios de hidrantes operantes, em manuteção e inoperantes são o mínimo que o sistema deve entregar.<br>
+O sistema deve possuir um cadastro de hidrante, emitir relatórios de hidrantes operantes, inoprantes e em manutenção, gerar mapa com localização dos hidrantes identificando com uma cor que será relacionada ao seu status (incluir tipos de status).
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
