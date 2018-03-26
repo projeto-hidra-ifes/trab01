@@ -27,11 +27,10 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
-(https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Inicio.png?raw=true "Title")
 
-<br>
+![alt text](http://github.com/projeto-hidra-ifes/trab01/image/Inicio.png)<br>
 
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
+![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
