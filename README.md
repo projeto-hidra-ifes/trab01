@@ -28,7 +28,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
-![alt text](http://github.com/projeto-hidra-ifes/trab01/image/Inicio.png)<br>
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Inicio.png)<br>
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")<br>
 
