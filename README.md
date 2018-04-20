@@ -36,7 +36,76 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
     
-    
+USUARIO				
+id	    nome	            login	            senha	        perfil
+00001	Antônio Rodrigues	antonio.rodrigues	senhaPadr@01	00007
+00002	Eduardo Pereira	    eduardo.pereira	    senhaPadr@02	00017
+00003	Jorge Júnior	    jorge.junior	    senhaPadr@03	00018
+00004	Luciano Santana	    luciano.santana  	senhaPadr@04	00018
+00005	Marcelo Costa	    marcelo.costa	    senhaPadr@05	00017
+
+PERFIL		
+id	    descricao	    modulo_permitido
+00001	SYSTEM.admin	00001
+00002	SYSTEM.admin	00002
+00003	SYSTEM.admin	00003
+00004	SYSTEM.admin	00004
+00005	SYSTEM.admin	00005
+00006	SYSTEM.admin	00006
+00007	CESAN.adm	    00001
+00008	CESAN.adm	    00002
+00009	CESAN.adm	    00003
+00010	CESAN.adm	    00004
+00011	CESAN.adm	    00005
+00012	CESAN.user	    00001
+00013	CESAN.user	    00002
+00014	CESAN.user	    00003
+00015	CESAN.user	    00004
+00016		
+00017	CBMES.adm	
+00018	CBMES.user	
+
+ENDERECO					
+id	    cep	        bairro          rua	                            numero	ponto_referencia
+00001	29065-051	Jardim Camburi	Avenida Dante Michelini	        4107	Na esquina do Hotel Canto do Sol
+00002	29065-048	Jardim Camburi	Rua Carlos Martins	            2017	Ao lado do Coronel Picanha
+00003	29065-035	Jardim Camburi	Rua Belmiro Teixeira Pimente	2014	Em frente ao Colégio Salesiano
+00004	29065-072	Jardim Camburi	Rua Natanael do Amaral Carneiro	60B  	Ao lado do Forno e Lenha Disk Pizza
+00005	29065-084	Jardim Camburi	Av. Jedith Leão Castelo Ribeiro	291 	Em frente ao supermercado Carone
+
+CONEXAO			
+id	    tipo_conexao	                                    quantidade	tamanho
+00001	Adaptador Storz 2.1/2"x Rosca Fêmea 2.1/2" | Bucka	2	        50 mm
+00002	Adaptador Hidrante Macho	                        3	        20 mm
+00003	União de Mangueira de Hidrante ou Mangote 1.1/2"	2	        30 mm
+00004	Válvula Hidrante 2.1/2″	                            1	        30 mm
+00005	Válvulas para Hidrantes                         	3	        15 mm
+
+MANUTENCAO					
+id	    status	        data	    hora	    trabalho_realizado	tecnico_responsavel
+00001	Em dia	        20/01/2018	09:25:15	Troca de valvula	Antônio Rodrigues
+00002	Atrasada	    25/06/2015	12:57:18	Troca de conexão	Eduardo Pereira
+00003	Em andamento	14/09/1954	23:15:15	Verificação status	Jorge Júnior
+00004	Não autorizada	22/08/2016	05:02:35	Troca de valvula	Luciano Santana
+00005	Autorizada	    29/03/2015	14:25:17	Troca de valvula	Marcelo Costa
+
+MODULO		
+id	    descricao	ativo
+00001	hidrante	VERDADEIRO
+00002	conexao	    VERDADEIRO
+00003	manutencao	VERDADEIRO
+00004	endereco	VERDADEIRO
+00005	usuario	    VERDADEIRO
+00006	perfil	    VERDADEIRO
+
+HIDRANTE														
+id	codigo	status	endereco	latitude	longitude	tipo_hidrante	vazao_padrao	vazao_maxima	conexao	manutencao	ultima_atualizacao	usuario_resp	data_criacao	foto
+00001	VIXJDC0001	Operando	00001	-2.025.529.799	4.026.365.656	recalque	100 l/min	200 l/min	00001	00001	01/02/2018	00001	05/03/2015	
+00002	VIXJDC0002	Em manutenção	00002	2.026.192.086	4.026.602.495	parede	150 l/min	200 l/min	00002	00002	30/01/2018	00002	05/01/2017	
+00003	VIXJDC0003	Aguardando peça	00003	202.628.267	4.025.984.514	coluna	90 l/min	150 l/min	00003	00003	05/04/2018	00003	28/02/2016	
+00004	VIXJDC0004	Sem Água	00004	2.025.626.426	4.026.699.054	recalque	110 l/min	300 l/min	00004	00004	22/03/2018	00004	22/09/2013	
+00005	VIXJDC0005	Operando	00005	2.026.324.942	4.026.160.467	coluna	120 l/min	300 l/min	00005	00005	21/05/2016	00005	15/10/2011	
+
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
@@ -73,54 +142,11 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 >## Marco de Entrega 02 em: (23/04/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    Usuário:
-    U_id = Número de identificação do usuário.
-    Nome = Nome do usuário.
-    Login = Login do usuário.
-    Senha = Senha do usuário.
-    Perfil = Identificação do usuário (se ele é administrador, usuário padrão…).
-    Sescrição = Usuário padrão, administrador… 
-    Modulo_permitido = Tipo de modelo permitido.
-    Hidrante:
-    H_id = Número de do hidrante.
-    Codigo = Código do hidrante.
-    Status = Mostra se o hidrante esta em estado ‘operando’, ‘manutenção’, ‘sem água’, ‘aguardando Peça’ ou ‘inoperante’.
-    Latitude = Latitude onde se localiza o hidrante.
-    Longitude = Longitude onde se localiza o hidrante.
-    Tipo_hidrante = Modelo do hidrante ‘recalque’, ‘parede’, ‘coluna’.
-    Vazão_padrão = Quantidade de litros padrão por minuto de água que o hidrante expele.
-    Vazão_máxima = Quantidade de litros máximos por minuto de água que o hidrante expele.
-    Conexão = Tipo de mangueira que pode ser usada no hidrante.
-    Manutenção = Indica se a manutenção esta em dia ou atrasada.
-    Ultima_atualização = Dia que foi realizado a ultima atualização do hidrante.
-    Usuário_resp = Usuário responsável pelo hidrante.
-    Data_criação = Data de criação do hidrante.
-    Foto = Foto do hidrante.
-    Endereço:
-    E_id = Identificação do endereço.
-    Cep = Cep do endereço.
-    Bairro = Nome do bairro.
-    Rua = Nome da rua.
-    Número = Número de referência.
-    Ponto_referencia = Algum ponto de referência.
-    Conexão:
-    C_id= Identificação da conexão.
-    Tipo_conexão = Tipo da mangueira que encaixa no hidrante.
-    Quantidade = Quantidade de mangueiras de um certo tipo disponível.
-    Tamanho = Tamanho da mangueira.
-    Manutenção:
-    Ma_id = Identificação da manutenção.
-    Status = Indica se a manutenção está em dia ou atrasada.
-    Data = Dia da manutenção.
-    Hora = Horário que foi realizado a manutenção.
-    Trabalho_realizado = Tipo de trabalho que foi realizado no hidrante (‘troca de válvula’, ‘troca de conexão’…).
-    Técnico_responsável = Pessoa qualifica que foi responsável pela manutenção.
-    Módulo:
-    Mo_id = Identificação do módulo.
-    Descrição = Descreve a identificação do modulo.
-    Ativo = Indica se o modulo está ativo ou não.
-
-
+    [objeto]: [descrição do objeto]
+    
+    EXEMPLO:
+    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
+    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
 
 
 ### 6	MODELO LÓGICO<br>
