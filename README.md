@@ -160,11 +160,52 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 >## Marco de Entrega 02 em: (23/04/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    Usuário:
+    U_id = Número de identificação do usuário.
+    Nome = Nome do usuário.
+    Login = Login do usuário.
+    Senha = Senha do usuário.
+    Perfil = Identificação do usuário (se ele é administrador, usuário padrão…).
+    Sescrição = Usuário padrão, administrador… 
+    Modulo_permitido = Tipo de modelo permitido.
+    Hidrante:
+    H_id = Número de do hidrante.
+    Codigo = Código do hidrante.
+    Status = Mostra se o hidrante esta em estado ‘operando’, ‘manutenção’, ‘sem água’, ‘aguardando Peça’ ou ‘inoperante’.
+    Latitude = Latitude onde se localiza o hidrante.
+    Longitude = Longitude onde se localiza o hidrante.
+    Tipo_hidrante = Modelo do hidrante ‘recalque’, ‘parede’, ‘coluna’.
+    Vazão_padrão = Quantidade de litros padrão por minuto de água que o hidrante expele.
+    Vazão_máxima = Quantidade de litros máximos por minuto de água que o hidrante expele.
+    Conexão = Tipo de mangueira que pode ser usada no hidrante.
+    Manutenção = Indica se a manutenção esta em dia ou atrasada.
+    Ultima_atualização = Dia que foi realizado a ultima atualização do hidrante.
+    Usuário_resp = Usuário responsável pelo hidrante.
+    Data_criação = Data de criação do hidrante.
+    Foto = Foto do hidrante.
+    Endereço:
+    E_id = Identificação do endereço.
+    Cep = Cep do endereço.
+    Bairro = Nome do bairro.
+    Rua = Nome da rua.
+    Número = Número de referência.
+    Ponto_referencia = Algum ponto de referência.
+    Conexão:
+    C_id= Identificação da conexão.
+    Tipo_conexão = Tipo da mangueira que encaixa no hidrante.
+    Quantidade = Quantidade de mangueiras de um certo tipo disponível.
+    Tamanho = Tamanho da mangueira.
+    Manutenção:
+    Ma_id = Identificação da manutenção.
+    Status = Indica se a manutenção está em dia ou atrasada.
+    Data = Dia da manutenção.
+    Hora = Horário que foi realizado a manutenção.
+    Trabalho_realizado = Tipo de trabalho que foi realizado no hidrante (‘troca de válvula’, ‘troca de conexão’…).
+    Técnico_responsável = Pessoa qualifica que foi responsável pela manutenção.
+    Módulo:
+    Mo_id = Identificação do módulo.
+    Descrição = Descreve a identificação do modulo.
+    Ativo = Indica se o modulo está ativo ou não.o de Pessoa Física para cada cliente da empresa.<br>
 
 
 ### 6	MODELO LÓGICO<br>
