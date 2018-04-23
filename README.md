@@ -114,7 +114,13 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         *** Relatório de localização de hidrantes por endereço.
         *** Relatório de localização de hidrantes por georeferenciamento.
         *** Relatório de localização de hidrantes por mapa.
-        *** 
+        *** Relatório de funcionalidade do hidrante.
+        *** Relatória dos tipos de conexões do hidrante.
+        *** Relatória de manutenção.
+        *** Relatório da vazão maxima e padrão do hidrante.
+        *** Relatório de usuario.
+        *** Relatório de atualizações do hidrante.
+        *** Relatório de descrições do estado em que se encontra o hidrante.
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
