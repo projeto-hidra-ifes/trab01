@@ -111,16 +111,17 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         *** O sistema Web Proposto para gestão de hidrantes disponibilizará aos seus usuários/colaboradores informações relevantes ao           uso de hidrantes localizados, a princício, no bairro de Jardim Camburí em Vitória no Espírito Santo onde o índice de incendios           urbanos é mais elevado. Dentre as possibilidades de relários o sistema atenderá uma das principais requisições do corpo de               bombeiros em relação a localização dos hidrantes e seu estado de uso.
         
     b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-        *** Relatório de localização de hidrantes por endereço.
-        *** Relatório de localização de hidrantes por georeferenciamento.
-        *** Relatório de localização de hidrantes por mapa.
-        *** Relatório de funcionalidade do hidrante.
-        *** Relatória dos tipos de conexões do hidrante.
-        *** Relatória de manutenção.
-        *** Relatório da vazão maxima e padrão do hidrante.
-        *** Relatório de usuario.
-        *** Relatório de atualizações do hidrante.
-        *** Relatório de descrições do estado em que se encontra o hidrante.
+    
+    *** Relatório de localização de hidrantes por endereço.
+    *** Relatório de localização de hidrantes por georeferenciamento.
+    *** Relatório de localização de hidrantes por mapa.
+    *** Relatório de funcionalidade do hidrante.
+    *** Relatória dos tipos de conexões do hidrante.
+    *** Relatória de manutenção.
+    *** Relatório da vazão maxima e padrão do hidrante.
+    *** Relatório de usuario.
+    *** Relatório de atualizações do hidrante.
+    *** Relatório de descrições do estado em que se encontra o hidrante.
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
