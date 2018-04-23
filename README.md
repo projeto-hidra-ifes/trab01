@@ -108,7 +108,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
-        *** O sistema Web Proposto para gestão de hidrantes disponibilizará aos seus usuários/colaboradores informações relevantes ao           uso de hidrantes localizados, a princício, no bairro de Jardim Camburí em Vitória no Espírito Santo onde o índice de incendios           urbanos é mais elevado. Dentre as possibilidades de relários o sistema atenderá uma das principais requisições do corpo de               bombeiros em relação a localização dos hidrantes e seu estado de uso.
+    
+     *** O sistema Web Proposto para gestão de hidrantes disponibilizará aos seus usuários/colaboradores informações relevantes ao           uso de hidrantes localizados, a princício, no bairro de Jardim Camburí em Vitória no Espírito Santo onde o índice de incendios           urbanos é mais elevado. Dentre as possibilidades de relários o sistema atenderá uma das principais requisições do corpo de               bombeiros em relação a localização dos hidrantes e seu estado de uso.
         
     b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
