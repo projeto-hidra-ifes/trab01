@@ -107,8 +107,14 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     00005	VIXJDC0005	Operando	00005	2.026.324.942	4.026.160.467	coluna	120 l/min	300 l/min	00005	00005	21/05/2016	00005	15/10/2011	
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
+    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
+        *** O sistema Web Proposto para gestão de hidrantes disponibilizará aos seus usuários/colaboradores informações relevantes ao           uso de hidrantes localizados, a princício, no bairro de Jardim Camburí em Vitória no Espírito Santo onde o índice de incendios           urbanos é mais elevado. Dentre as possibilidades de relários o sistema atenderá uma das principais requisições do corpo de               bombeiros em relação a localização dos hidrantes e seu estado de uso.
+        
     b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+        *** Relatório de localização de hidrantes por endereço.
+        *** Relatório de localização de hidrantes por georeferenciamento.
+        *** Relatório de localização de hidrantes por mapa.
+        *** 
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
