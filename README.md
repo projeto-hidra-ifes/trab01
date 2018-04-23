@@ -37,66 +37,66 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
     
     USUARIO				
-    id	    nome	            login	            senha	        perfil
-    00001	Antônio Rodrigues	antonio.rodrigues	senhaPadr@01	00007
-    00002	Eduardo Pereira	    eduardo.pereira	    senhaPadr@02	00017
-    00003	Jorge Júnior	    jorge.junior	    senhaPadr@03	00018
-    00004	Luciano Santana	    luciano.santana  	senhaPadr@04	00018   
-    00005	Marcelo Costa	    marcelo.costa	    senhaPadr@05	00017
+    id	        nome	                login	                senha	            perfil
+    00001	    Antônio Rodrigues	    antonio.rodrigues	    senhaPadr@01	    00007
+    00002	    Eduardo Pereira	        eduardo.pereira	        senhaPadr@02	    00017
+    00003	    Jorge Júnior	        jorge.junior	        senhaPadr@03	    00018
+    00004	    Luciano Santana	        luciano.santana  	    senhaPadr@04	    00018   
+    00005	    Marcelo Costa	        marcelo.costa	        senhaPadr@05	    00017
 
     PERFIL		
-    id	    descricao	    modulo_permitido
-    00001	SYSTEM.admin	00001
-    00002	SYSTEM.admin	00002
-    00003	SYSTEM.admin	00003
-    00004	SYSTEM.admin	00004
-    00005	SYSTEM.admin	00005
-    00006	SYSTEM.admin	00006
-    00007	CESAN.adm	    00001
-    00008	CESAN.adm	    00002
-    00009	CESAN.adm	    00003
-    00010	CESAN.adm	    00004
-    00011	CESAN.adm	    00005
-    00012	CESAN.user	    00001
-    00013	CESAN.user	    00002
-    00014	CESAN.user	    00003
-    00015	CESAN.user	    00004
+    id	        descricao	        modulo_permitido
+    00001	    SYSTEM.admin	    00001
+    00002	    SYSTEM.admin	    00002
+    00003	    SYSTEM.admin	    00003
+    00004	    SYSTEM.admin	    00004
+    00005	    SYSTEM.admin	    00005
+    00006	    SYSTEM.admin	    00006
+    00007	    CESAN.adm	        00001
+    00008	    CESAN.adm	        00002
+    00009	    CESAN.adm	        00003
+    00010	    CESAN.adm	        00004
+    00011	    CESAN.adm	        00005
+    00012	    CESAN.user	        00001
+    00013	    CESAN.user	        00002
+    00014	    CESAN.user	        00003
+    00015	    CESAN.user	        00004
     00016		
-    00017	CBMES.adm	
-    00018	CBMES.user	
+    00017	    CBMES.adm	
+    00018	    CBMES.user	
 
     ENDERECO					
-    id	    cep	        bairro          rua	                            numero	ponto_referencia
-    00001	29065-051	Jardim Camburi	Avenida Dante Michelini	        4107	Na esquina do Hotel Canto do Sol
-    00002	29065-048	Jardim Camburi	Rua Carlos Martins	            2017	Ao lado do Coronel Picanha
-    00003	29065-035	Jardim Camburi	Rua Belmiro Teixeira Pimente	2014	Em frente ao Colégio Salesiano
-    00004	29065-072	Jardim Camburi	Rua Natanael do Amaral Carneiro	60B  	Ao lado do Forno e Lenha Disk Pizza
-    00005	29065-084	Jardim Camburi	Av. Jedith Leão Castelo Ribeiro	291 	Em frente ao supermercado Carone
+    id	        cep	            bairro              rua	                                numero	    ponto_referencia
+    00001	    29065-051	    Jardim Camburi	    Avenida Dante Michelini	            4107	    Na esquina do Hotel Canto do Sol
+    00002	    29065-048	    Jardim Camburi	    Rua Carlos Martins	                2017	    Ao lado do Coronel Picanha
+    00003	    29065-035	    Jardim Camburi	    Rua Belmiro Teixeira Pimente	    2014	    Em frente ao Colégio Salesiano
+    00004	    29065-072	    Jardim Camburi	    Rua Natanael do Amaral Carneiro	    60B  	    Ao lado do Forno e Lenha Disk Pizza
+    00005	    29065-084	    Jardim Camburi	    Av. Jedith Leão Castelo Ribeiro	    291 	    Em frente ao supermercado Carone
 
     CONEXAO			
-    id	    tipo_conexao	                                    quantidade	tamanho
-    00001	Adaptador Storz 2.1/2"x Rosca Fêmea 2.1/2" | Bucka	2	        50 mm
-    00002	Adaptador Hidrante Macho	                        3	        20 mm
-    00003	União de Mangueira de Hidrante ou Mangote 1.1/2"	2	        30 mm
-    00004	Válvula Hidrante 2.1/2″	                            1	        30 mm
-    00005	Válvulas para Hidrantes                         	3	        15 mm
+    id	        tipo_conexao	                                        quantidade	    tamanho
+    00001	    Adaptador Storz 2.1/2"x Rosca Fêmea 2.1/2" | Bucka	    2	            50 mm
+    00002	    Adaptador Hidrante Macho	                            3	            20 mm
+    00003	    União de Mangueira de Hidrante ou Mangote 1.1/2"	    2	            30 mm
+    00004	    Válvula Hidrante 2.1/2″	                                1	            30 mm
+    00005	    Válvulas para Hidrantes                         	    3	            15 mm
 
     MANUTENCAO					
-    id	    status	        data	    hora	    trabalho_realizado	tecnico_responsavel
-    00001	Em dia	        20/01/2018	09:25:15	Troca de valvula	Antônio Rodrigues
-    00002	Atrasada	    25/06/2015	12:57:18	Troca de conexão	Eduardo Pereira
-    00003	Em andamento	14/09/1954	23:15:15	Verificação status	Jorge Júnior
-    00004	Não autorizada	22/08/2016	05:02:35	Troca de valvula	Luciano Santana
-    00005	Autorizada	    29/03/2015	14:25:17	Troca de valvula	Marcelo Costa
+    id	        status	            data	        hora	        trabalho_realizado	    tecnico_responsavel
+    00001	    Em dia	            20/01/2018	    09:25:15	    Troca de valvula	    Antônio Rodrigues
+    00002	    Atrasada	        25/06/2015	    12:57:18	    Troca de conexão	    Eduardo Pereira
+    00003	    Em andamento	    14/09/1954	    23:15:15	    Verificação status	    Jorge Júnior
+    00004	    Não autorizada	    22/08/2016	    05:02:35	    Troca de valvula	    Luciano Santana
+    00005	    Autorizada	        29/03/2015	    14:25:17	    Troca de valvula	    Marcelo Costa
 
     MODULO		
-    id	    descricao	ativo
-    00001	hidrante	VERDADEIRO
-    00002	conexao	    VERDADEIRO
-    00003	manutencao	VERDADEIRO
-    00004	endereco	VERDADEIRO
-    00005	usuario	    VERDADEIRO
-    00006	perfil	    VERDADEIRO
+    id	        descricao	    ativo
+    00001	    hidrante	    VERDADEIRO
+    00002	    conexao	        VERDADEIRO
+    00003	    manutencao	    VERDADEIRO
+    00004	    endereco	    VERDADEIRO
+    00005	    usuario	        VERDADEIRO
+    00006	    perfil	        VERDADEIRO
 
     HIDRANTE														
     id	codigo	status	endereco	latitude	longitude	tipo_hidrante	vazao_padrao	vazao_maxima	conexao	manutencao	ultima_atualizacao	usuario_resp	data_criacao	foto
