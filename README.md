@@ -65,13 +65,13 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     00017	    CBMES.adm	
     00018	    CBMES.user	
 
-    ENDERECO					
-    id	        cep	            bairro              rua	                                numero	    ponto_referencia
-    00001	    29065-051	    Jardim Camburi	    Avenida Dante Michelini	            4107	    Na esquina do Hotel Canto do Sol
-    00002	    29065-048	    Jardim Camburi	    Rua Carlos Martins	                2017	    Ao lado do Coronel Picanha
-    00003	    29065-035	    Jardim Camburi	    Rua Belmiro Teixeira Pimente	    2014	    Em frente ao Colégio Salesiano
-    00004	    29065-072	    Jardim Camburi	    Rua Natanael do Amaral Carneiro	    60B  	    Ao lado do Forno e Lenha Disk Pizza
-    00005	    29065-084	    Jardim Camburi	    Av. Jedith Leão Castelo Ribeiro	    291 	    Em frente ao supermercado Carone
+    ENDERECO
+    id      cep         bairro          rua                                 numero  ponto_referencia
+    00001   29065-051   Jardim Camburi  Avenida Dante Michelini             4107    Na esquina do Hotel Canto do Sol
+    00002   29065-048   Jardim Camburi  Rua Carlos Martins                  2017    Ao lado do Coronel Picanha
+    00003   29065-035   Jardim Camburi  Rua Belmiro Teixeira Pimente        2014    Em frente ao Colégio Salesiano
+    00004   29065-072   Jardim Camburi  Rua Natanael do Amaral Carneiro     60B     Ao lado do Forno e Lenha Disk Pizza
+    00005   29065-084   Jardim Camburi  Av. Jedith Leão Castelo Ribeiro     291     Em frente ao supermercado Carone
 
     CONEXAO			
     id	        tipo_conexao	                                        quantidade	    tamanho
