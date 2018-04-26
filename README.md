@@ -99,12 +99,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     00006	    perfil	        VERDADEIRO
 
     HIDRANTE														
-    id	codigo	status	endereco	latitude	longitude	tipo_hidrante	vazao_padrao	vazao_maxima	conexao	manutencao	ultima_atualizacao	usuario_resp	data_criacao	foto
-    00001	VIXJDC0001	Operando	00001	-2.025.529.799	4.026.365.656	recalque	100 l/min	200 l/min	00001	00001	01/02/2018	00001	05/03/2015	
-    00002	VIXJDC0002	Em manutenção	00002	2.026.192.086	4.026.602.495	parede	150 l/min	200 l/min	00002	00002	30/01/2018	00002	05/01/2017	
-    00003	VIXJDC0003	Aguardando peça	00003	202.628.267	4.025.984.514	coluna	90 l/min	150 l/min	00003	00003	05/04/2018	00003	28/02/2016	
-    00004	VIXJDC0004	Sem Água	00004	2.025.626.426	4.026.699.054	recalque	110 l/min	300 l/min	00004	00004	22/03/2018	00004	22/09/2013	
-    00005	VIXJDC0005	Operando	00005	2.026.324.942	4.026.160.467	coluna	120 l/min	300 l/min	00005	00005	21/05/2016	00005	15/10/2011	
+    id      codigo      status	        endereco	latitude	    longitude	    tipo_hidrante	vazao_padrao	vazao_maxima	conexao	manutencao  ultima_atualizacao	usuario_resp	data_criacao	foto
+    00001	VIXJDC0001	Operando	    00001	    -2.025.529.799	4.026.365.656	recalque	    100 l/min	    200 l/min	     00001   00001	     01/02/2018          00001          05/03/2015	
+    00002	VIXJDC0002	Em manutenção	00002	    2.026.192.086	4.026.602.495	parede	        150 l/min	    200 l/min	     00002   00002	     30/01/2018          00002          05/01/2017	
+    00003	VIXJDC0003	Aguardando peça	00003	    202.628.267	    4.025.984.514	coluna	        90 l/min	    150 l/min       00003	00003       05/04/2018          00003           28/02/2016	
+    00004	VIXJDC0004	Sem Água	    00004	    2.025.626.426	4.026.699.054	recalque	    110 l/min	    300 l/min       00004	00004       22/03/2018          00004           22/09/2013	
+    00005	VIXJDC0005	Operando	    00005	    2.026.324.942	4.026.160.467	coluna	        120 l/min	    300 l/min       00005	00005       21/05/2016          00005           15/10/2011	
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
