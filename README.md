@@ -1,13 +1,13 @@
 # TRABALHO 01:  Projeto Hidra
-Trabalho desenvolvido durante a disciplina de BD1
+Trabalho desenvolvido durante a disciplina de Banco de Dados 1, no primeiro semestre de 2018.
 
 # Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Matheus Aguiar: aguiar007ax@gmail.com<br>
-Paulo Lacerda: paulolacerda@hotmail.com<br>
-Wagner Maurício: wmauriciu@gmail.com<br>
+1. Matheus Aguiar: aguiar007ax@gmail.com<br>
+2. Paulo Lacerda: paulolacerda@hotmail.com<br>
+3. Wagner Maurício: wmauriciu@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
@@ -24,9 +24,6 @@ Wagner Maurício: wmauriciu@gmail.com<br>
 Sistema web proposto para gestão de hidrantes afim de atender as demandas do Corpo de Bombeiros Militar do Espírito Santo (CBMES) e da Companhia Espírito Santense de Saneamento (CESAN). Os recursos do sistema serão disponibilizado ao CBMES com perfil de usuário padrão, ou seja, ele poderá consultar informações sobre os hidrantes, incluir informações sobre manutenção e emitir relatórios. A Cesan terá um perfil de usuário com funções de cadastro de hidrantes, gestão de usuário, gestão das manutenções e emissão de relatórios. O sistema deve possuir um cadastro de hidrantes para armazenamento de dados como seu ID, código, data de criação, status e outros relacionados.O sistema deve possuir um cadastro de conexão do hidrante onde será armazenado o tipo de conexão, quantidade disponiveis no hidrante, status quanto a possíveis avarias na conexão e a sua vasão. O sistema também deverá possuir um cadastro de endereços para controle e identificação da sua locialização onde serão armazenado a rua, bairro, CEP e ponto de referência, latitude e longitude. O sistema deve possuir um gerenciador de usuário onde conste o ID do usuário, tipo de perfil, Nome completo ou Razão Social, endereço e telefones para contato. O sistema deve também emitir relatórios quanto aos hidrantes operantes, inoprantes e em manutenção, gerar mapa com localização dos hidrantes identificando com uma cor que será relacionada ao seu status (incluir tipos de status).
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Inicio.png)<br>
 
