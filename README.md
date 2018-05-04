@@ -156,7 +156,7 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
 
->## Marco de Entrega 02 em: (23/04/2018)<br>
+>## Marco de Entrega 02 em: (11/05/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
     Usuário:
     U_id = Número de identificação do usuário.
