@@ -27,9 +27,6 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Inicio.png)<br>
 
-Alterado..
-![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/Modelo-Conceitual_Projeto_Hidra_paulo.png)<br>
-
 #### 4.1 TABELA DE DADOS DO SISTEMA:
 ![Tabelas](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/Tabelas%20do%20sistema.xlsx)
 
@@ -63,8 +60,8 @@ Alterado..
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
 
-![Alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/projeto_hidra_MODELO_CONCEITUAL.png?raw=true "Modelo Conceitual")
-<br>
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/Modelo-Conceitual_Projeto_Hidra_paulo.png)<br>
+
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
