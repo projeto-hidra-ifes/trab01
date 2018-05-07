@@ -31,7 +31,7 @@ Alterado..
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/Modelo-Conceitual_Projeto_Hidra_paulo.png)<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-    (https://docs.google.com/spreadsheets/d/1BysqcQ9B1ml7HID6IJqCAb5UlKl8wEA7AVyC0SkcuJQ/edit?ts=5ad9db0f#gid=0)
+    [link para as tabelas](https://docs.google.com/spreadsheets/d/1BysqcQ9B1ml7HID6IJqCAb5UlKl8wEA7AVyC0SkcuJQ/edit?ts=5ad9db0f#gid=0)
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
