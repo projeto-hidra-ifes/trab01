@@ -27,6 +27,9 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Inicio.png)<br>
 
+Alterado..
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/Modelo-Conceitual_Projeto_Hidra_paulo.png)<br>
+
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
