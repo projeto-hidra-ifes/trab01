@@ -41,4 +41,82 @@ create table historico_salario(
 	dat_ini_sal date,
 	dat_fim_sal date,
 	salario money);
+	
+	
+	
+	
+-- Exercício CAP 1
+
+select * from projeto;
+-- 1.a.
+alter table projeto drop localizacao;
+-- 1.b.
+alter table projeto add column localidade varchar(45);
+-- 1.c.
+alter table projeto add column logico boolean;
+
+
+select * from empregado;
+-- 2.a.
+alter table empregado add column funcao varchar (20);
+-- 2.b.
+alter table empregado rename column nome to nome_completo;
+-- 2.c.
+alter table empregado drop dat_init_sal;
+
+
+select * from departamento;
+-- 3.a.
+alter table departamento add column descricao_departamento varchar(100);
+-- 3.b.
+alter table departamento add column data_criacao timestamp;
+-- 3.c.
+alter table departamento rename column nome to nome_departamento;
+-- 3.d.
+alter table departamento drop data_criacao;
+
+
+-- 4.
+create table aluno(
+	codigo serial,
+	nome varchar(45)
+);
+select * from aluno;
+
+
+-- 5.
+alter table aluno alter column codigo type float, alter column nome type varchar(30);
+select * from aluno;
+
+
+-- 6.
+drop table aluno;
+
+
+-- 7.a.
+alter table historico_salario drop dat_ini_sal;
+-- 7.b.
+alter table historico_salario add column salario_total_anual money;
+-- 7.c.
+alter table historico_salario rename column salario to salario_mensal;
+
+
+-- 8.a.
+alter table empregado_projeto add column funcao varchar(20);
+-- 8.b.
+alter table empregado_projeto add column data_inicio date;
+-- 8.c.
+alter table empregado_projeto add column data_fim date;
+
+select * from empregado_projeto;
+
+
+-- 9.a.
+alter table departamento_projeto add column demanda_de_funcionarios integer;
+-- 9.b.
+alter table departamento_projeto add column horas_destinadas integer;
+-- 9.c.
+alter table departamento_projeto rename column codigo to numero;
+
+select * from departamento_projeto;	
     
