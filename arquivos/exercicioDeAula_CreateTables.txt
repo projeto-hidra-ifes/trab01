@@ -21,7 +21,7 @@ create table dependente(
 	codigo varchar(10),
 	rg_responsavel varchar(12),
 	nome_dependente varchar(50),
-	nascimento datetime,
+	nascimento timestamp,
 	relacao varchar(15),
 	sexo varchar(10));
 	
