@@ -72,7 +72,7 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
         
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
+    [Grupo da Vaga]: [Leonardo Laia Arpini, Luciano Ananias, Thiago Alves]
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
