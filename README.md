@@ -73,7 +73,7 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
     
 #### 5.1 Validação do Modelo Conceitual
     [Grupo da Vaga]: [Leonardo Laia Arpini, Luciano Ananias, Thiago Alves]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Casa Inteligente - JARVIS]: [Rebeca Borlini]
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
