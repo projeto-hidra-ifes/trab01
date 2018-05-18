@@ -1,0 +1,22 @@
+select * from projeto;
+select * from departamento_projeto;
+select * from empregado;
+select * from empregado_projeto;
+select * from departamento;
+select * from dependente;
+select * from historico_salario;
+
+select nome, localizacao, numero from projeto;
+select * from projeto where localizacao = 'Vitória';
+select nome, numero from projeto where localizacao = 'Vitória';
+select * from projeto where numero > 10;
+select * from empregado where salario > '3000';
+select * from empregado where rg_supervisor = '1010';
+select * from empregado where rg = '4040';
+select * from historico_salario where rg = '4040';
+select * from empregado where rg_supervisor < '2020';
+select * from projeto where numero >= 10;
+select * from empregado where rg_supervisor <= '2020';
+select * from empregado where rg_supervisor is null;
+select * from empregado where rg_supervisor is not null;
+select * from empregado where depto != 2;
