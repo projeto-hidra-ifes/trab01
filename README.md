@@ -139,62 +139,62 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
         (não serão aceitos modelos que não estejam em conformidade)
 
 ### 7	MODELO FÍSICO<br>
-create table Perfil(
-	id_P primary key,
-    descricao varchar(30));
-create table Modulo(
-    id_P primary key,
-    descricao varchar(30),
-    status varchar(30));
-create table Empresa(
-    id_P primary key,
-    descricao varchar(30));
-create table Tipo_Perfil(
-    id_P primary key,
-    cescricao varchar(30));
-create table Usuario(
-    id_P primary key,
-    nome varchar(50),
-    login varchar(20),
-    senha varchar(20));
-create table Historico(
-    data date,
-    hora time,
-    atributo_alterado varchar(30),
-    id_P primary key);
-create table Hidrante(
-    id_H primary key,
-    vazao_maxima float,
-    codigo varchar(30),
-    status varchar(30),
-    data_criacao date,
-    latitude float,
-    longitude float,
-    foto carchar(50);
-create table vazao_padra(
-    id_H primary key,
-    deacricao varchar(30),
-create table Tipo_hidrante(
-    id_H primary key,
-    descricao varchar(30);
-create table Conexao(
-    id_H primary key,
-    tipo_conexao varchar(30),
-    tamanho float);
-create table Manutencao(
-    id_H primary key,
-    status varchar(30),
-    data date,
-    hora time,
-    trabalho_realizado varchar(30),
-    tecnico_responsavel varchar(30);
-create table Endereco(
-    id_H primary key,
-    cep varchar(30),
-    bairro varchar(50),
-    rua varchar(30),
-    numero int not null,
-    ponto_referencia varchar(50);
+	create table Perfil(
+		id_P primary key,
+   		descricao varchar(30));
+	create table Modulo(
+    		id_P primary key,
+    		descricao varchar(30),
+    		status varchar(30));
+	create table Empresa(
+    		id_P primary key,
+    		descricao varchar(30));
+	create table Tipo_Perfil(
+    		id_P primary key,
+    		cescricao varchar(30));
+	create table Usuario(
+    		id_P primary key,
+    		nome varchar(50),
+    		login varchar(20),
+    		senha varchar(20));
+	create table Historico(
+    		data date,
+    		hora time,
+    		atributo_alterado varchar(30),
+    		id_P primary key);
+	create table Hidrante(
+    		id_H primary key,
+    		vazao_maxima float,
+    		codigo varchar(30),
+    		status varchar(30),
+    		data_criacao date,
+    		latitude float,
+    		longitude float,
+    		foto carchar(50);
+	create table vazao_padra(
+    		id_H primary key,
+    		deacricao varchar(30),
+	create table Tipo_hidrante(
+    		id_H primary key,
+    		descricao varchar(30);
+	create table Conexao(
+    		id_H primary key,
+    		tipo_conexao varchar(30),
+    		tamanho float);
+	create table Manutencao(
+    		id_H primary key,
+    		status varchar(30),
+    		data date,
+    		hora time,
+    		trabalho_realizado varchar(30),
+    		tecnico_responsavel varchar(30);
+	create table Endereco(
+    		id_H primary key,
+    		cep varchar(30),
+    		bairro varchar(50),
+    		rua varchar(30),
+    		numero int not null,
+    		ponto_referencia varchar(50);
     
     
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
