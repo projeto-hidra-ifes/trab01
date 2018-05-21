@@ -40,3 +40,25 @@ create table empregado_projeto_BKP as select * from empregado_projeto;
 create table historico_salario_BKP as select * from historico_salario;
 create table projeto_BKP as select * from projeto;
 
+-- Exercicios inclusao, alteracao e exclusao
+create table departamento_projeto_2 as select * from departamento_projeto;
+create table projeto_2 as select * from projeto;
+create table empregado_2 as select * from empregado;
+create table departamento_2 as select * from departamento;
+
+insert into projeto values
+(50, 'Ginásio de Esportes', 'Serra'),
+(51, 'Teatro', 'Vitória');
+
+select * from projeto;
+
+update projeto set nome = 'Aguas Claras' where nome = 'Águas Limpas';
+update projeto set nome = 'Águas Limpas' where nome = 'Aguas Claras';
+update projeto set localizacao = 'Serra' where nome = 'Motor';
+delete from departamento_projeto;
+select * from departamento_projeto;
+select * from projeto;
+delete from projeto;
+insert into departamento_projeto select * from departamento_projeto_2;
+select * from departamento_projeto;
+drop table departamento_projeto_2, projeto_2, empregado_2, departamento_2;
