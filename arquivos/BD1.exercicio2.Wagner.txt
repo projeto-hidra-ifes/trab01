@@ -69,7 +69,6 @@ alter table empregado alter column rg type varchar(4);
 alter table empregado rename column nome_completo to nome;
 alter table empregado alter column cpf type varchar(5);
 alter table empregado alter column depto type integer using (depto::integer);
-alter table empregado rename column rg_surpevisor to rg_supervisor;
 alter table empregado alter column rg_supervisor type varchar(4);
 alter table empregado rename column sal to salario;
 alter table empregado drop funcao;
