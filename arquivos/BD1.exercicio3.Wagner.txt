@@ -7,8 +7,8 @@ select * from dependente;
 select * from historico_salario;
 
 select nome, localizacao, numero from projeto;
-select * from projeto where localizacao = 'Vitória';
-select nome, numero from projeto where localizacao = 'Vitória';
+select * from projeto where localizacao = 'VitÃ³ria';
+select nome, numero from projeto where localizacao = 'VitÃ³ria';
 select * from projeto where numero > 10;
 select * from empregado where salario > '3000';
 select * from empregado where rg_supervisor = '1010';
@@ -20,3 +20,23 @@ select * from empregado where rg_supervisor <= '2020';
 select * from empregado where rg_supervisor is null;
 select * from empregado where rg_supervisor is not null;
 select * from empregado where depto != 2;
+select nome, cpf, depto from empregado where depto = 2;
+select rg, nome from empregado where depto = 1;
+select nome from empregado where salario > '5500';
+select nome from empregado where salario >= '5500';
+select nome from empregado where salario > '5500';
+select * from empregado where dat_ini_sal > '01-02-2012';
+select * from empregado where dat_ini_sal > '01-05-2012';
+select nome from empregado where dat_ini_sal >= '01-05-2012';
+select cpf from empregado where dat_ini_sal >= '01-05-2012';
+
+
+-- Backup das tabelas
+create table departamento_BKP as select * from departamento;
+create table departamento_projeto_BKP as select * from departamento_projeto;
+create table dependente_BKP as select * from dependente;
+create table empregado_BKP as select * from empregado;
+create table empregado_projeto_BKP as select * from empregado_projeto;
+create table historico_salario_BKP as select * from historico_salario;
+create table projeto_BKP as select * from projeto;
+
