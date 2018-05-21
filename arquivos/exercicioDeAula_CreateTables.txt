@@ -8,7 +8,7 @@ create table empregado(
 	nome varchar(50),
 	cpf varchar(11),
 	depto varchar(20),
-	rg_surpevisor varchar(12),
+	rg_supervisor varchar(12),
 	sal money,
 	dat_init_sal date);
 	
