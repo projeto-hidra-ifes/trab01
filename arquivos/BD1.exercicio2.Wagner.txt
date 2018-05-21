@@ -3,7 +3,7 @@ select * from historico_salario;
 alter table historico_salario drop salario_total_anual;
 alter table historico_salario add column dat_ini_sal date;
 alter table historico_salario rename column salario_mensal to salario;
-alter table historico_salario alter column salario type float;
+alter table historico_salario alter column salario type money;
 alter table historico_salario alter column rg type varchar(4);
 
 insert into historico_salario(rg, dat_ini_sal, dat_fim_sal, salario) 
@@ -53,10 +53,10 @@ alter table dependente alter column nascimento type date;
 insert into dependente 
 values(1, 1010, 'Jorge', '1986/12/27', 'Filho', 'M'),
 (2, 1010, 'Luiz', '1979/11/18', 'Filho', 'M'),
-(3, 2020, 'Fernanda Carla', '1969/02/14', 'CÙnjuge', 'F'),
-(4, 2020, '¬ngelo', '1995/02/10', 'Filho', 'M'),
-(5, 3030, 'AndrÈ', '1990/05/01', 'Filho', 'M'),
-(6, 8080, 'Ana Maria', '1980/06/30', 'CÙnjuge', 'F'),
+(3, 2020, 'Fernanda Carla', '1969/02/14', 'C√¥njuge', 'F'),
+(4, 2020, '√Çngelo', '1995/02/10', 'Filho', 'M'),
+(5, 3030, 'Andr√©', '1990/05/01', 'Filho', 'M'),
+(6, 8080, 'Ana Maria', '1980/06/30', 'C√¥njuge', 'F'),
 (7, 8080, 'Karla Cristina', '1999/08/25', 'Filha', 'F');
 
 select * from dependente;
@@ -76,14 +76,14 @@ alter table empregado drop funcao;
 alter table empregado add column dat_ini_sal date;
 
 insert into empregado 
-values (1010, 'Jo„o Luiz', 11111, 1, '', 6000.00, '2011/05/01'),
+values (1010, 'Jo√£o Luiz', 11111, 1, '', 6000.00, '2011/05/01'),
 (2020, 'Fernanda', 22222, 1, 1010, 5500.00, '2008/12/01'),
 (3030, 'Ricardo', 33333, 2, 2020, 2300.00, '2009/08/01'),
 (4040, 'Jorge', 44444, 2, 3030, 3200.00, '2010/10/01'),
 (5050, 'Renata', 55555, 2, 3030, 1300.00, '2012/02/01'),
 (6060, 'Luiz Renato', 66666, 3, 2020, 3000.00, '2012/05/01'),
 (7070, 'LuizFernando', 77777, 3, 6060, 2000.00, '2008/08/01'),
-(8080, 'Jo„o Antonio', 88888, 1, 2020, 3950.00, '2010/07/01');
+(8080, 'Jo√£o Antonio', 88888, 1, 2020, 3950.00, '2010/07/01');
 
 select * from empregado;
 
@@ -98,7 +98,7 @@ alter table departamento alter column rg_gerente type varchar(4);
 insert into departamento 
 values(1, 'Contabilidade', 1010),
 (2, 'Engenharia Civil', 3030),
-(3, 'Engenharia Mec‚nica', 2020),
+(3, 'Engenharia Mec√¢nica', 2020),
 (4, 'Industrial', '');
 
 select * from  departamento;
@@ -125,9 +125,9 @@ select * from projeto;
 alter table projeto rename column localidade to localizacao;
 alter table projeto drop logico;
 
-insert into projeto values(5, 'Financeiro', 'S„o Paulo'),
+insert into projeto values(5, 'Financeiro', 'S√£o Paulo'),
 (10, 'Motor', 'Rio Claro'), 
-(20, 'PrÈdio Central', 'Campinas'),
-(25, '¡guas Limpas', 'VitÛria');
+(20, 'Pr√©dio Central', 'Campinas'),
+(25, '√Åguas Limpas', 'Vit√≥ria');
 
 select * from projeto;
