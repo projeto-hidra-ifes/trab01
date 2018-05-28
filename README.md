@@ -201,9 +201,72 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
     
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físic
-        b) formato .SQL
-
+	insert into table Perfil(id_P, descricao)
+		values	(0001, 'System.admin'),
+    		(0002, 'System.admin'),
+            (0003, 'System.admin'),
+            (0004, 'System.admin'),
+            (0005, 'System.admin'),
+            (0006, 'System.admin'),
+            (0007, 'System.admin'),
+            (0008, 'Cesan.admin'),
+            (0009, 'Cesan.admin'),
+            (0010, 'cesan.admin');
+	insert into table Modulo(id_P, descricao)
+		values	(0001, 'pessoal1'),
+    		(0002, 'pessoal2'),
+            (0003, 'pessoal3'),
+            (0004, 'pessoal4'),
+            (0005, 'pessoal5'),
+            (0006, 'pessoal6'),
+            (0007, 'pessoal7'),
+            (0008, 'pessoal8'),
+            (0009, 'pessoal9'),
+            (0010, 'pessoal10');
+	insert into table Empresa(id_P, descricao)
+		values	(0001, 'cesan'),
+    		(0002, 'cesan'),
+            (0003, 'cesan'),
+            (0004, 'cesan'),
+            (0005, 'cesan'),
+            (0006, 'cesan'),
+            (0007, 'cesan'),
+            (0008, 'cesam'),
+            (0009, 'cesan'),
+            (0010, 'cesan');
+	insert into table Tipo_Perfil(id_P, descricao)
+		values	(0001, 'admin'),
+    		(0002, 'admin'),
+            (0003, 'admin'),
+            (0004, 'admin'),
+            (0005, 'admin'),
+            (0006, 'admin'),
+            (0007, 'admin'),
+            (0008, 'admin'),
+            (0009, 'admin'),
+            (0010, 'admin');
+	insert into table Usuario(id_P, nome, login, senha)
+		values	(0001, 'Rimuru', 'Rimuru.Tempest', 'Tempest'),
+    		(0002, 'Tempest', 'Tempest.Rimuru', 'Riumuru'),
+            (0003, 'Yun', 'Yun.Che', 'ATG'),
+            (0004, 'Itautec', 'Ita.U.Tec', 'Tec.U.Ita'),
+            (0005, 'Clig', 'Gilc', 'Lcig'),
+            (0006, 'Chaotic', 'Chaos', 'Destruction'),
+            (0007, 'Sowrd', 'Chaotic', 'Fast'),
+            (0008, 'God', 'ChaoticSword', 'SwordGod'),
+            (0009, 'Tyr', 'GodOfWar', 'Nordic'),
+            (0010, 'Dragon', 'Verad', 'Control');
+	insert into table Historico(data, hora, atributo_alterado, id_P)
+		values	('2010/07/25', '12:30', 'login', 0001),
+            ('2010/08/23', '13:56', 'login', 0002),
+            ('2009/11/04', '18:45', 'senha', 0003),
+            ('2011/02/05', '10:20', 'login', 0004),
+			('2010/07/25', '12:30', 'login', 0005),
+            ('2010/08/23', '13:56', 'login', 0006),
+            ('2009/11/04', '18:45', 'senha', 0007),
+            ('2011/02/05', '10:20', 'login', 0008),
+      		('2010/07/25', '12:30', 'login', 0009),
+            ('2010/08/23', '13:56', 'login', 0010);
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
         (create para tabelas e estruturas de dados + dados a serem inseridos)
