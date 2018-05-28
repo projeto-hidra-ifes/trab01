@@ -152,7 +152,7 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
     		descricao varchar(30));
 	create table Tipo_Perfil(
     		id_P primary key,
-    		cescricao varchar(30));
+    		descricao varchar(30));
 	create table Usuario(
     		id_P primary key,
     		nome varchar(50),
