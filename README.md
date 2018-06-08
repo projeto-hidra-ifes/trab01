@@ -150,31 +150,31 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 		status varchar(30),
 		primary key(id_P));
         
-create table Empresa(
+	create table Empresa(
     		id_P serial not null,
 		descricao varchar(30),
 		primary key (id_P));
 
-create table Tipo_Perfil(
+	create table Tipo_Perfil(
     		id_P serial not null,
 		descricao varchar(30),
 		primary key (id_P));
         
-create table Usuario(
+	create table Usuario(
     		id_P serial not null,
 		nome varchar(50),
 		login varchar(20),
 		senha varchar(20),
 		primary key (id_P));
         
-create table Historico(
-    	id_P serial not null,
+	create table Historico(
+    		id_P serial not null,
 		data date,
 		hora time,
 		atributo_alterado varchar(30),
 		primary key (id_P));
         
-create table Hidrante(
+	create table Hidrante(
     		id_H serial not null,
 		vazao_maxima float,
 		codigo varchar(30),
@@ -185,23 +185,23 @@ create table Hidrante(
 		foto varchar(50),
 		primary key (id_H));
     
-create table vazao_padra(
+	create table vazao_padra(
     		id_H serial not null,
 		descricao varchar(30),
 		primary key (id_H));
         
-create table Tipo_hidrante(
+	create table Tipo_hidrante(
     		id_H serial not null,
 		descricao varchar(30),
 		primary key (id_H));
 
-create table Conexao(
+	create table Conexao(
     		id_H serial not null,
 		tipo_conexao varchar(30),
 		tamanho float,
 		primary key (id_H));
         
-create table Manutencao(
+	create table Manutencao(
     		id_H serial not null,
 		status varchar(30),
 		data date,
@@ -210,7 +210,7 @@ create table Manutencao(
 		tecnico_responsavel varchar(30),
 		primary key (id_H));
         
-create table Endereco(
+	create table Endereco(
     		id_H serial not null,
 		cep varchar(30),
 		bairro varchar(50),
