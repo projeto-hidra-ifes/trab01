@@ -1,0 +1,154 @@
+create table Perfil(
+	id_P int not null,
+	descricao varchar(30),
+	primary key(id_P));
+    
+create table Modulo(
+    	id_P serial not null,
+		descricao varchar(30),
+		status varchar(30),
+		primary key(id_P));
+        
+create table Empresa(
+    	id_P serial not null,
+		descricao varchar(30),
+		primary key (id_P));
+
+create table Tipo_Perfil(
+    	id_P serial not null,
+		descricao varchar(30),
+		primary key (id_P));
+        
+create table Usuario(
+    	id_P serial not null,
+		nome varchar(50),
+		login varchar(20),
+		senha varchar(20),
+		primary key (id_P));
+        
+create table Historico(
+    	id_P serial not null,
+		data date,
+		hora time,
+		atributo_alterado varchar(30),
+		primary key (id_P));
+        
+create table Hidrante(
+    	id_H serial not null,
+		vazao_maxima float,
+		codigo varchar(30),
+		status varchar(30),
+		data_criacao date,
+		latitude float,
+		longitude float,
+		foto varchar(50),
+		primary key (id_H));
+    
+create table vazao_padra(
+    	id_H serial not null,
+		descricao varchar(30),
+		primary key (id_H));
+        
+create table Tipo_hidrante(
+    	id_H serial not null,
+		descricao varchar(30),
+		primary key (id_H));
+
+create table Conexao(
+    	id_H serial not null,
+		tipo_conexao varchar(30),
+		tamanho float,
+		primary key (id_H));
+        
+create table Manutencao(
+    	id_H serial not null,
+		status varchar(30),
+		data date,
+		hora time,
+		trabalho_realizado varchar(30),
+		tecnico_responsavel varchar(30),
+		primary key (id_H));
+        
+create table Endereco(
+    	id_H serial not null,
+		cep varchar(30),
+		bairro varchar(50),
+		rua varchar(30),
+		numero int not null,
+		ponto_referencia varchar(50),
+		primary key (id_H));
+
+
+
+
+Insert Into Perfil(id_P, descricao)
+	values	(0001, 'System.admin'),
+		(0002, 'System.admin'),
+        (0003, 'System.admin'),
+        (0004, 'System.admin'),
+        (0005, 'System.admin'),
+        (0006, 'System.admin'),
+        (0007, 'System.admin'),
+        (0008, 'Cesan.admin'),
+        (0009, 'Cesan.admin'),
+        (0010, 'cesan.admin');
+
+Insert Into Modulo(id_P, descricao)
+	values	(0001, 'pessoal1'),
+		(0002, 'pessoal2'),
+        (0003, 'pessoal3'),
+        (0004, 'pessoal4'),
+        (0005, 'pessoal5'),
+        (0006, 'pessoal6'),
+        (0007, 'pessoal7'),
+        (0008, 'pessoal8'),
+        (0009, 'pessoal9'),
+        (0010, 'pessoal10');
+
+Insert Into Empresa(id_P, descricao)
+	values	(0001, 'cesan'),
+		(0002, 'cesan'),
+        (0003, 'cesan'),
+        (0004, 'cesan'),
+        (0005, 'cesan'),
+        (0006, 'cesan'),
+        (0007, 'cesan'),
+        (0008, 'cesam'),
+        (0009, 'cesan'),
+        (0010, 'cesan');
+        
+Insert Into Tipo_Perfil(id_P, descricao)
+	values	(0001, 'admin'),
+		(0002, 'admin'),
+        (0003, 'admin'),
+        (0004, 'admin'),
+        (0005, 'admin'),
+        (0006, 'admin'),
+        (0007, 'admin'),
+        (0008, 'admin'),
+        (0009, 'admin'),
+        (0010, 'admin');
+        
+Insert Into Usuario(id_P, nome, login, senha)
+	values	(0001, 'Rimuru', 'Rimuru.Tempest', 'Tempest'),
+		(0002, 'Tempest', 'Tempest.Rimuru', 'Riumuru'),
+        (0003, 'Yun', 'Yun.Che', 'ATG'),
+        (0004, 'Itautec', 'Ita.U.Tec', 'Tec.U.Ita'),
+        (0005, 'Clig', 'Gilc', 'Lcig'),
+        (0006, 'Chaotic', 'Chaos', 'Destruction'),
+        (0007, 'Sowrd', 'Chaotic', 'Fast'),
+        (0008, 'God', 'ChaoticSword', 'SwordGod'),
+        (0009, 'Tyr', 'GodOfWar', 'Nordic'),
+        (0010, 'Dragon', 'Verad', 'Control');
+        
+Insert Into Historico(data, hora, atributo_alterado, id_P)
+	values	('2010/07/25', '12:30', 'login', 0001),
+        ('2010/08/23', '13:56', 'login', 0002),
+        ('2009/11/04', '18:45', 'senha', 0003),
+        ('2011/02/05', '10:20', 'login', 0004),
+		('2010/07/25', '12:30', 'login', 0005),
+        ('2010/08/23', '13:56', 'login', 0006),
+        ('2009/11/04', '18:45', 'senha', 0007),
+        ('2011/02/05', '10:20', 'login', 0008),
+  		('2010/07/25', '12:30', 'login', 0009),
+        ('2010/08/23', '13:56', 'login', 0010);
