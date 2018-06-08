@@ -295,6 +295,73 @@ Insert Into Historico(data, hora, atributo_alterado, id_P)
         ('2011/02/05', '10:20', 'login', 0008),
 	('2010/07/25', '12:30', 'login', 0009),
         ('2010/08/23', '13:56', 'login', 0010);
+insert into table Hidrante (id_H, vazao_maxima, codigo, status, data_criacao, latitude, longitude, foto)
+	values	(0001, '100 l/min', 'VIX0001', 'operando', '1995/09/25', -134.6584365, -65,52454, 'imagem'),
+    	(0002, '99 l/min', 'VIX0002', 'inoperante', '2001/12/21', 3425.3542, 352.6532, 'imagem'),
+        (0003, '70 l/min', 'VIX0003', 'operando', '2002/11/02', 3453.23542, 4521.6545, 'imagem'),
+        (0004, '60 l/min', 'VIX0004', 'em manutenção', '2003/10/13', 87.45667, 6778.3422, 'imagem'),
+        (0005, '75 l/min', 'VIX0005', 'operando', '2004/09/28', 97.32546, 1233.654778, 'imagem'),
+        (0006, '80 l/min', 'VIX0006', 'inoperante', '20005/08/01', 634.46574, 255.6322, 'imagem'),
+        (0007, '90 l/min', 'VIX0007', 'operando', '2006/07/25', 65347.2345626, 75453.2345, 'imagem'),
+        (0008, '95 l/min', 'VIX0008', 'em manutenção', '2007/06/06', 754.256, 673.2566, 'imagem'),
+        (0009, '100 l/min', 'VIX0009', 'operando', '2012/12/12', 87435.234677, 754232.74532, 'imagem'),
+        (0010, '99 l/min', 'VIX0010', 'inoperante', '2011/11/11', 63.2356, 74622.7232, 'imagem');
+insert into table vazao_padrao (id_H, descricao)
+	values	(0001, '50 l/min'),
+    	(0002, '40 l/min'),
+        (0003, '35 l/min'),
+        (0004, '30 l/min'),
+        (0005, '50 l/min'),
+        (0006, '40 l/min'),
+        (0007, '35 l/min'),
+        (0008, '30 l/min'),
+        (0009, '50 l/min'),
+        (0010, '40 l/min');
+insert into table Tipo_hidrante (id_H, descricao)
+	values	(0001, 'coluna'),
+    	(0002, 'recalque'),
+        (0003, 'recalque'),
+        (0004, 'coluna'),
+        (0005, 'recalque'),
+        (0006, 'recalque'),
+        (0007, 'coluna'),
+        (0008, 'recalque'),
+        (0009, 'recalque'),
+        (0010, 'coluna'),
+insert into table Conexao (id_H, tipo_conexao, tamanho)
+	values	(0001, 'adaptador storz', '2.5 pol'),
+    	(0002, 'adaptador storz', '1.5 pol'),
+        (0003, 'válvula globo em 45º', '2.5 pol'),
+        (0004, 'adaptador storz', '2.5 pol'),
+        (0005, 'adaptador storz', '1.5 pol'),
+        (0006, 'válvula globo em 45º', '2.5 pol'),
+        (0007, 'adaptador storz', '2.5 pol'),
+        (0008, 'adaptador storz', '1.5 pol'),
+        (0009, 'válvula globo em 45º', '2.5 pol'),
+        (0010, 'adaptador storz', '2.5 pol');
+insert into table Manutencao (id_H, Status, data, hora, trabalho_realizado, tecnico_responsavel)
+	values	(0001, 'em dia', '1999/01/03', '23:45', 'troca de válvula', 'wagner'),
+    	(0002, 'atrasada', '2000/02/05', '20:40', 'troca de coneção', 'matheus'),
+        (0003, 'em andamento', '2001/03/07', '19:30', 'verificação de status', 'paulo'),
+        (0004, 'não autorizada', '2002/04/09', '10:23', 'troca de válvula', 'wagner'),
+        (0005, 'autorizada', '2003/05/11', '06:30', 'troca de coneção', 'matheus'),
+        (0006, 'em dia', '2004/06/13', '05:47', 'verificação de status', 'paulo'),
+        (0007, 'atradada', '2005/07/15'. '08:55', 'troca de válvula', 'wagner'),
+        (0008, 'em andamento', '2006/08/17', '23:54', 'troca de coneção', 'matheus'),
+        (0009, 'nao autorizada', '2007/09/19', '21:34', 'verificação de status', 'paulo'),
+        (0010, 'autorizada', '2008/10/21', '10:25', 'troca de vávula', 'wagner');
+insert into table Endereco (id_H, cep, bairro, rua, numero, ponto_referencia)
+	values	(0001, '45635-435', 'algo sei la o que 1', 'rua algo 1', 01, 'na frente de algo 1'),
+    	(0002, '34657-212', 'algo sei la o que 2', 'rua algo 2', 02, 'na frente de algo 2'),
+        (0003, '93456-532', 'algo sei la o que 3', 'rua algo 3', 03, 'na frente de algo 3'),
+        (0004, '45567-653', 'algo sei la o que 4', 'rua algo 4', 04, 'na frente de algo 4'),
+        (0005, '12345-567', 'algo sei la o que 5', 'rua algo 5', 05, 'na frente de algo 5'),
+        (0006, '54321-678', 'algo sei la o que 6', 'rua algo 6', 06, 'na frente de algo 6'),
+        (0007, '87654-321', 'algo sei la o que 7', 'rua algo 7', 07, 'na frente de algo 7'),
+        (0008, '98712-345', 'algo sei la o que 8', 'rua algo 8', 08, 'na frente de algo 8'),
+        (0009, '54678-432', 'algo sei la o que 9', 'rua algo 9', 09, 'na frente de algo 9'),
+        (0010, '98712-987', 'algo sei la o que 10', 'rua algo 10', 10, 'na frente de algo 10'); 
+         
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
