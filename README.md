@@ -224,7 +224,7 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
 	
-Insert Into Perfil(id_P, descricao)
+	Insert Into Perfil(id_P, descricao)
 	values	(0001, 'System.admin'),
 	(0002, 'System.admin'),
         (0003, 'System.admin'),
@@ -236,7 +236,7 @@ Insert Into Perfil(id_P, descricao)
         (0009, 'Cesan.admin'),
         (0010, 'cesan.admin');
 
-Insert Into Modulo(id_P, descricao)
+	Insert Into Modulo(id_P, descricao)
 	values	(0001, 'pessoal1'),
 	(0002, 'pessoal2'),
         (0003, 'pessoal3'),
@@ -248,7 +248,7 @@ Insert Into Modulo(id_P, descricao)
         (0009, 'pessoal9'),
         (0010, 'pessoal10');
 
-Insert Into Empresa(id_P, descricao)
+	Insert Into Empresa(id_P, descricao)
 	values	(0001, 'cesan'),
 	(0002, 'cesan'),
         (0003, 'cesan'),
@@ -260,7 +260,7 @@ Insert Into Empresa(id_P, descricao)
         (0009, 'cesan'),
         (0010, 'cesan');
         
-Insert Into Tipo_Perfil(id_P, descricao)
+	Insert Into Tipo_Perfil(id_P, descricao)
 	values	(0001, 'admin'),
 	(0002, 'admin'),
         (0003, 'admin'),
@@ -272,7 +272,7 @@ Insert Into Tipo_Perfil(id_P, descricao)
         (0009, 'admin'),
         (0010, 'admin');
         
-Insert Into Usuario(id_P, nome, login, senha)
+	Insert Into Usuario(id_P, nome, login, senha)
 	values	(0001, 'Rimuru', 'Rimuru.Tempest', 'Tempest'),
 	(0002, 'Tempest', 'Tempest.Rimuru', 'Riumuru'),
         (0003, 'Yun', 'Yun.Che', 'ATG'),
@@ -284,7 +284,7 @@ Insert Into Usuario(id_P, nome, login, senha)
         (0009, 'Tyr', 'GodOfWar', 'Nordic'),
         (0010, 'Dragon', 'Verad', 'Control');
         
-Insert Into Historico(data, hora, atributo_alterado, id_P)
+	Insert Into Historico(data, hora, atributo_alterado, id_P)
 	values	('2010/07/25', '12:30', 'login', 0001),
         ('2010/08/23', '13:56', 'login', 0002),
         ('2009/11/04', '18:45', 'senha', 0003),
@@ -295,7 +295,7 @@ Insert Into Historico(data, hora, atributo_alterado, id_P)
         ('2011/02/05', '10:20', 'login', 0008),
 	('2010/07/25', '12:30', 'login', 0009),
         ('2010/08/23', '13:56', 'login', 0010);
-insert into table Hidrante (id_H, vazao_maxima, codigo, status, data_criacao, latitude, longitude, foto)
+	insert into table Hidrante (id_H, vazao_maxima, codigo, status, data_criacao, latitude, longitude, foto)
 	values	(0001, '100 l/min', 'VIX0001', 'operando', '1995/09/25', -134.6584365, -65,52454, 'imagem'),
     	(0002, '99 l/min', 'VIX0002', 'inoperante', '2001/12/21', 3425.3542, 352.6532, 'imagem'),
         (0003, '70 l/min', 'VIX0003', 'operando', '2002/11/02', 3453.23542, 4521.6545, 'imagem'),
@@ -306,7 +306,7 @@ insert into table Hidrante (id_H, vazao_maxima, codigo, status, data_criacao, la
         (0008, '95 l/min', 'VIX0008', 'em manutenção', '2007/06/06', 754.256, 673.2566, 'imagem'),
         (0009, '100 l/min', 'VIX0009', 'operando', '2012/12/12', 87435.234677, 754232.74532, 'imagem'),
         (0010, '99 l/min', 'VIX0010', 'inoperante', '2011/11/11', 63.2356, 74622.7232, 'imagem');
-insert into table vazao_padrao (id_H, descricao)
+	insert into table vazao_padrao (id_H, descricao)
 	values	(0001, '50 l/min'),
     	(0002, '40 l/min'),
         (0003, '35 l/min'),
@@ -317,7 +317,7 @@ insert into table vazao_padrao (id_H, descricao)
         (0008, '30 l/min'),
         (0009, '50 l/min'),
         (0010, '40 l/min');
-insert into table Tipo_hidrante (id_H, descricao)
+	insert into table Tipo_hidrante (id_H, descricao)
 	values	(0001, 'coluna'),
     	(0002, 'recalque'),
         (0003, 'recalque'),
@@ -328,7 +328,7 @@ insert into table Tipo_hidrante (id_H, descricao)
         (0008, 'recalque'),
         (0009, 'recalque'),
         (0010, 'coluna'),
-insert into table Conexao (id_H, tipo_conexao, tamanho)
+	insert into table Conexao (id_H, tipo_conexao, tamanho)
 	values	(0001, 'adaptador storz', '2.5 pol'),
     	(0002, 'adaptador storz', '1.5 pol'),
         (0003, 'válvula globo em 45º', '2.5 pol'),
@@ -339,7 +339,7 @@ insert into table Conexao (id_H, tipo_conexao, tamanho)
         (0008, 'adaptador storz', '1.5 pol'),
         (0009, 'válvula globo em 45º', '2.5 pol'),
         (0010, 'adaptador storz', '2.5 pol');
-insert into table Manutencao (id_H, Status, data, hora, trabalho_realizado, tecnico_responsavel)
+	insert into table Manutencao (id_H, Status, data, hora, trabalho_realizado, tecnico_responsavel)
 	values	(0001, 'em dia', '1999/01/03', '23:45', 'troca de válvula', 'wagner'),
     	(0002, 'atrasada', '2000/02/05', '20:40', 'troca de coneção', 'matheus'),
         (0003, 'em andamento', '2001/03/07', '19:30', 'verificação de status', 'paulo'),
@@ -350,7 +350,7 @@ insert into table Manutencao (id_H, Status, data, hora, trabalho_realizado, tecn
         (0008, 'em andamento', '2006/08/17', '23:54', 'troca de coneção', 'matheus'),
         (0009, 'nao autorizada', '2007/09/19', '21:34', 'verificação de status', 'paulo'),
         (0010, 'autorizada', '2008/10/21', '10:25', 'troca de vávula', 'wagner');
-insert into table Endereco (id_H, cep, bairro, rua, numero, ponto_referencia)
+	insert into table Endereco (id_H, cep, bairro, rua, numero, ponto_referencia)
 	values	(0001, '45635-435', 'algo sei la o que 1', 'rua algo 1', 01, 'na frente de algo 1'),
     	(0002, '34657-212', 'algo sei la o que 2', 'rua algo 2', 02, 'na frente de algo 2'),
         (0003, '93456-532', 'algo sei la o que 3', 'rua algo 3', 03, 'na frente de algo 3'),
