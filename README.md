@@ -645,6 +645,22 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+	
+	![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/DBHidra-Script-Drop-Table.sql)<br>
+	
+	DROP TABLE IF EXISTS Perfil;
+	DROP TABLE IF EXISTS Modulo;
+	DROP TABLE IF EXISTS Empresa;
+	DROP TABLE IF EXISTS Tipo_Perfil;
+	DROP TABLE IF EXISTS Usuario;
+	DROP TABLE IF EXISTS Historico;
+	DROP TABLE IF EXISTS Hidrante;
+	DROP TABLE IF EXISTS vazao_padrao;
+	DROP TABLE IF EXISTS Tipo_hidrante;
+	DROP TABLE IF EXISTS Conexao;
+	DROP TABLE IF EXISTS Manutencao;
+	DROP TABLE IF EXISTS Endereco;
+	
 >## Marco de Entrega 03 em: (14/05/2018)<br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
