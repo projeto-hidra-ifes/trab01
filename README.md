@@ -393,14 +393,13 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
          
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/DBHidra-Script-Create-Insert.sql)<br>
-
-
         a) Junção dos scripts anteriores em um único script 
         (create para tabelas e estruturas de dados + dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/DBHidra-Script-Create-Insert.sql)<br>
+
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
         (Drop table + Create de tabelas e estruturas de dados + dados a serem inseridos)
