@@ -321,7 +321,7 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 
 
 
-	insert into table vazao_padrao (id_H, descricao)
+	Insert Into vazao_padrao (id_H, descricao)
 		values	(0001, '50 l/min'),
 		(0002, '40 l/min'),
 		(0003, '35 l/min'),
