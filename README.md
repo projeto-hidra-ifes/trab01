@@ -185,7 +185,7 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 		foto varchar(50),
 		primary key (id_H));
     
-	create table vazao_padra(
+	create table vazao_padrao(
 		id_H serial not null,
 		descricao varchar(30),
 		primary key (id_H));
