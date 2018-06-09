@@ -398,6 +398,7 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/DBHidra-Script-Create-Insert.sql)<br>
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
