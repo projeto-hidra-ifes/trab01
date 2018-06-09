@@ -666,6 +666,43 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+	Select * From Perfil;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%20Select%20Table%20Perfil.png)<br>
+
+	Select * From Modulo;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%20Select%20Table%20Modulo.png)<br>
+	
+	Select * From Empresa;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%20Select%20Table%20Empresa.png)<br>
+	
+	Select * From Tipo_Perfil;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%20Select%20Table%20Tipo_Perfil.png)<br>	
+
+	Select * From Usuario;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%20Select%20Table%20Usuario.png)<br>
+
+	Select * From Historico;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%20Select%20Table%20Historico.png)<br>
+
+	Select * From Hidrante;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%20Select%20Table%20Hidrante.png)<br>
+
+	Select * From vazao_padrao;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%20Select%20Table%20Vazao_Padrao.png)<br>
+
+	Select * From Tipo_hidrante;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%20Select%20Table%20Tipo_Hidrante.png)<br>
+
+	Select * From Conexao;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%20Select%20Table%20Conexao.png)<br>
+
+	Select * From Manutencao;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%20Select%20Table%20Manutencao.png)<br>
+
+	Select * From Endereco;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%20Select%20Table%20Endereco.png)<br>
+
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
