@@ -704,6 +704,9 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+	select * from Manutencao
+	where Manutencao.tecnico_responsavel = 'matheus';
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/where%201.png?raw=true)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
