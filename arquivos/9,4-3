@@ -1,0 +1,2 @@
+select * from Manutencao
+where status like 'em%';
