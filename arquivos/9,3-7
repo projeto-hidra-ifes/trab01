@@ -1,0 +1,2 @@
+select * from Tipo_hidrante
+where Tipo_hidrante.id_H > 0006;
