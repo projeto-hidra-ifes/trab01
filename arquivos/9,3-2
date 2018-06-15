@@ -1,0 +1,2 @@
+select * from Conexao
+where Conexao.tamanho <1.5 and tamanho >2.5;
