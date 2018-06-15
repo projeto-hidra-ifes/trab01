@@ -1,2 +1,9 @@
 select * from Endereco
 where Endereco.numero <03 or numero >09;
+
+
+//  Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
+select * from Endereco where Endereco.numero < 03 or Endereco.numero > 09;
+select * from Endereco where Endereco.numero < 03 and Endereco.bairro <> 'Laranjeiras';
+select * from Endereco where Endereco.numero > 09 and Endereco.bairro <> 'Centro';
+select * from Endereco where Endereco.numero Is Not Null;
