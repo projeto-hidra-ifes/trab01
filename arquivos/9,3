@@ -1,2 +1,2 @@
 select * from Modulo
-where Modulo.id_P <0001 and id_p >0003;
+where Modulo.id_P <0001 or id_p >0003;
