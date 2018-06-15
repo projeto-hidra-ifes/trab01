@@ -1,2 +1,2 @@
 select * from Endereco
-where Endereco.numero <03 and numero >09;
+where Endereco.numero <03 or numero >09;
