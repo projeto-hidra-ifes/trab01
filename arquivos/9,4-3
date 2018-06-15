@@ -1,2 +1,2 @@
 select * from Manutencao
-where status like 'em%';
+where Status like 'em%';
