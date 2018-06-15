@@ -1,0 +1,2 @@
+select * from vazao_padrao
+where vazao_padrao.descricao <'40 l/min' and descricao >'50 l/min';
