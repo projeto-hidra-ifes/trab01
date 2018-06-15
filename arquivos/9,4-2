@@ -1,0 +1,2 @@
+select * from Usuario
+where nome like 'G%';
