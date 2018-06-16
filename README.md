@@ -722,19 +722,19 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not<br>
     	1 - select * from Endereco where Endereco.numero < 03 or Endereco.numero > 09;
-	![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-a.1.png?raw=true)<br>
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-a.1.png?raw=true)<br>
 	
     	2 - select * from Endereco where Endereco.numero < 03 and Endereco.bairro <> 'Laranjeiras';
-	![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-a.2.png?raw=true)<br>
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-a.2.png?raw=true)<br>
 	
     	3 - select * from Endereco where Endereco.numero > 09 and Endereco.bairro <> 'Centro';
-	![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-a.3.png?raw=true)<br>
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-a.3.png?raw=true)<br>
 	
     	4 - select * from Endereco where Endereco.numero Is Not Null;
-	![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-a.4.png?raw=true)<br>
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-a.4.png?raw=true)<br>
 	
     	5 - select * from Endereco where Endereco.bairro = 'algo sei la o que 1' or  Endereco.bairro = 'algo sei la o que 9';
-	![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-a.5.png?raw=true)<br>
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-a.5.png?raw=true)<br>
     
     
     b) Criar no mínimo 3 consultas com operadores aritméticos 
