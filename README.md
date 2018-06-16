@@ -758,7 +758,7 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
     	2 - Select now() - data as "Dias de Manutenção" From Manutencao;
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-c.2.png?raw=true)<br>
 
-    	3 - 
+    	3 - Select tecnico_responsavel as "Supervisor" From Manutencao
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-c.3.png?raw=true)<br>
     
     
