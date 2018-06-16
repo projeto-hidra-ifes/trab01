@@ -751,6 +751,17 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 
 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+    
+    	1 - Select now() - data_criacao as "Tempo de vida do Hidrante" From Hidrante
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-c.1.png?raw=true)<br>
+
+    	2 - 
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-b.2.png?raw=true)<br>
+
+    	3 - 
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-b.3.png?raw=true)<br>
+    
+    
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
