@@ -740,11 +740,11 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
     
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     
-    	1 - Select (vazao_maxima*10^3)/3600 as "Vazao Máxima em M³ por Segundo" From Hidrante
+    	1 - Select (vazao_maxima*10^3)/3600 as "Vazao Máxima em M³/s" From Hidrante
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-b.1.png?raw=true)<br>
 
-    	2 - select * from Endereco where Endereco.bairro = 'algo sei la o que 1' or  Endereco.bairro = 'algo sei la o que 9';
-![alt text](?raw=true)<br>
+    	2 - Select now() - data as "Dias de Manutenção" From Manutencao;
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-b.2.png?raw=true)<br>
 
     	3 - select * from Endereco where Endereco.bairro = 'algo sei la o que 1' or  Endereco.bairro = 'algo sei la o que 9';
 ![alt text](?raw=true)<br>
