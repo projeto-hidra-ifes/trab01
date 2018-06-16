@@ -747,7 +747,7 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-b.2.png?raw=true)<br>
 
     	3 - select * from Endereco where Endereco.bairro = 'algo sei la o que 1' or  Endereco.bairro = 'algo sei la o que 9';
-![alt text](?raw=true)<br>
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-b.3.png?raw=true)<br>
 
 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
