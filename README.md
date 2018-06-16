@@ -720,7 +720,8 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 	where Endereco.numero >= 05;
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/where%204.png?raw=true)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
-    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not<br>
+    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
+    
     	1 - select * from Endereco where Endereco.numero < 03 or Endereco.numero > 09;
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-a.1.png?raw=true)<br>
 	
@@ -738,6 +739,17 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
     
     
     b) Criar no mínimo 3 consultas com operadores aritméticos 
+    
+    	1 - Select (vazao_maxima*10^3)/3600 as "Vazao Máxima em M³ por Segundo" From Hidrante
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.3-b.1.png?raw=true)<br>
+
+    	2 - select * from Endereco where Endereco.bairro = 'algo sei la o que 1' or  Endereco.bairro = 'algo sei la o que 9';
+![alt text](?raw=true)<br>
+
+    	3 - select * from Endereco where Endereco.bairro = 'algo sei la o que 1' or  Endereco.bairro = 'algo sei la o que 9';
+![alt text](?raw=true)<br>
+
+
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
