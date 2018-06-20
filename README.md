@@ -766,12 +766,16 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
     a) Criar outras 5 consultas que envolvam like ou ilike
     	1 - Select * From Empresa Where Descricao Like '%esa%'
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.4-a.1.png?raw=true)<br>
+
 	2 - Select * From Endereco Where rua Like '%algo%'
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.4-a.2.png?raw=true)<br>
+
 	3 - Select * From Usuario Where nome iLike 'c%'
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.4-a.3.png?raw=true)<br>
+
 	4 - Select * From Usuario Where nome iLike 'y%'
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.4-a.4.png?raw=true)<br>
+
 	5 - Select * From Usuario Where nome Like 'T%'
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.4-a.5.png?raw=true)<br>
 	
