@@ -813,7 +813,27 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
+	
+	1 - 
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-a.1.png?raw=true)<br>
+
+	2 - 
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-a.2.png?raw=true)<br>
+
+	3 - 
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-a.3.png?raw=true)<br>
+
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+	
+	1 - 
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-b.1.png?raw=true)<br>
+
+	2 - 
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-b.2.png?raw=true)<br>
+
+	3 - 
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-b.3.png?raw=true)<br>
+
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
