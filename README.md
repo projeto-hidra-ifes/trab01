@@ -798,6 +798,19 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 >## Marco de Entrega 04 em: (04/06/2017)<br>
     
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+	1 - Update Endereco Set Bairro = 'Jardim Camburi';
+
+	2 - Update Endereco Set rua = 'Joao de Oliveira Soares' Where id_h = 1;
+
+	3 - Update Endereco Set rua = 'Pedro Busatto' Where id_h = 2;
+
+	4 - Update Endereco Set rua = 'Milton Manoel dos Santos' Where id_h = 3;
+
+	5 - Delete From Endereco Where id_h = 4 and id_h = 5;
+
+	6 - Update Endereco Set Bairro = 'Bairro de Fatima' Where id_h = 10;
+
+
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
