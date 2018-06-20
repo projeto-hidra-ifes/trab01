@@ -764,6 +764,15 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
     
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
+    	1 - Select * From Empresa Where Descricao Like '%esa%'
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.4-a.1.png?raw=true)<br>
+	2 - 
+	
+	3 - 
+	
+	4 - 
+	
+	5 - 
     b) Criar uma consulta para cada tipo de função data apresentada.
 
 >## Marco de Entrega 04 em: (04/06/2017)<br>
