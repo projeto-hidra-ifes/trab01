@@ -780,6 +780,20 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.4-a.5.png?raw=true)<br>
 	
     b) Criar uma consulta para cada tipo de função data apresentada.
+	1 - Select current_date - data as "Qtd de Dias" From Manutencao
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.4-b.1.png?raw=true)<br>
+
+	2 - Select now() - data as "Qtd de Dias" From Manutencao
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.4-b.2.png?raw=true)<br>
+
+	3 - Select Age(current_date, data) as "Qtd de Dias" From Manutencao
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.4-b.3.png?raw=true)<br>
+
+	4 - Select date_part('year',(Age(current_date, data))) as "Qtd de Anos" From Manutencao
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.4-b.4.png?raw=true)<br>
+
+	5 - Select extract ('year' from data) as "Anos da ultima manutenção" From Manutencao
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.4-b.5.png?raw=true)<br>
 
 >## Marco de Entrega 04 em: (04/06/2017)<br>
     
