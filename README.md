@@ -1082,26 +1082,37 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-	
-	1 - 
-![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-a.1.png?raw=true)<br>
+		Select Endereco.Bairro, Endereco.Rua From Historico
+		Inner Join Usuario on (Historico.fk_usuario = Usuario.id_P)
+		Inner Join Perfil on (Usuario.fk_Perfil = Perfil.id_P)
+		Inner Join Modulo on (Perfil.fk_Modulo = Modulo.id_P)
+		Inner Join Empresa on (Perfil.fk_Empresa = Empresa.id_P)
+		Inner Join Tipo_Perfil on (Perfil.fk_Tipo_Perfil = Tipo_Perfil.id_P)
+		Inner Join Hidrante on (Historico.fk_Hidrante = Hidrante.id_H)
+		Inner Join Vazao_Padrao on (Hidrante.fk_Vazao_Padrao = Vazao_Padrao.id_H)
+		Inner Join Tipo_Hidrante on (Hidrante.fk_Tipo_Hidrante = Tipo_Hidrante.id_H)
+		Inner Join Endereco on (Hidrante.fk_Endereco = Endereco.id_H)
+		Inner Join Manutencao on (Hidrante.fk_Manutencao = Manutencao.id_H)
+		Inner Join Conexao on (Hidrante.fk_Conexao = Conexao.id_H)
 
-	2 - 
-![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-a.2.png?raw=true)<br>
-
-	3 - 
-![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-a.3.png?raw=true)<br>
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-a.png?raw=true)<br>
 
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
 	
-	1 - 
-![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-b.1.png?raw=true)<br>
+		Select Endereco.Bairro, Endereco.Rua, Endereco.CEP From Historico
+		Inner Join Usuario on (Historico.fk_usuario = Usuario.id_P)
+		Inner Join Perfil on (Usuario.fk_Perfil = Perfil.id_P)
+		Inner Join Modulo on (Perfil.fk_Modulo = Modulo.id_P)
+		Inner Join Empresa on (Perfil.fk_Empresa = Empresa.id_P)
+		Inner Join Tipo_Perfil on (Perfil.fk_Tipo_Perfil = Tipo_Perfil.id_P)
+		Inner Join Hidrante on (Historico.fk_Hidrante = Hidrante.id_H)
+		Inner Join Vazao_Padrao on (Hidrante.fk_Vazao_Padrao = Vazao_Padrao.id_H)
+		Inner Join Tipo_Hidrante on (Hidrante.fk_Tipo_Hidrante = Tipo_Hidrante.id_H)
+		Inner Join Endereco on (Hidrante.fk_Endereco = Endereco.id_H)
+		Inner Join Manutencao on (Hidrante.fk_Manutencao = Manutencao.id_H)
+		Inner Join Conexao on (Hidrante.fk_Conexao = Conexao.id_H)
 
-	2 - 
-![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-b.2.png?raw=true)<br>
-
-	3 - 
-![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-b.3.png?raw=true)<br>
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-b.png?raw=true)<br>
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
