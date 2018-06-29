@@ -11,14 +11,15 @@ Integrantes do grupo<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
-	Considerando que a Companhia Espírito Santense de Saneamento (Cesan) e o Corpo de Bombeiros Militar do Espírito Santo
-	(CBMES) utilizam sistemas diferentes para controle dos hidrantes e não há um canal de comunicação entre as instituições
-	e devido as alterações feitas pela Cesan, manuteções dos hidrantes, manutenções nas redes de água e instalação de novos
-	hidrantes só serem descobertos pelo CBMES através de contato telefônico. Conforme dados estatisticos o bairro de Jardim
-	Camburi em Vitória foi o mais atendido pelo CBMES com o maior número de incêndios urbanos em 2017. Com base messas
-	informações propomos o desenvolvimento de um sistema que armazene, permita alterações e mostre informações em tempo
-	real, plotadas num mapa, sobre os hidrantes localizados em Jardim Camburi, Vitória - ES, visando melhorar o atendimento
-	do CBMES as ocorrências de incêndio urbano.
+	Considerando que a Companhia Espírito Santense de Saneamento (Cesan) e o Corpo de Bombeiros Militar do 
+	Espírito Santo (CBMES) utilizam sistemas diferentes para controle dos hidrantes e não há um canal de 
+	comunicação entre as instituições e devido as alterações feitas pela Cesan, manuteções dos hidrantes,
+	manutenções nas redes de água e instalação de novos hidrantes só serem descobertos pelo CBMES através de 
+	contato telefônico. Conforme dados estatisticos o bairro de Jardim Camburi em Vitória foi o mais atendido
+	pelo CBMES com o maior número de incêndios urbanos em 2017. Com base messas informações propomos o 
+	desenvolvimento de um sistema que armazene, permita alterações e mostre informações em tempo real,
+	plotadas num mapa, sobre os hidrantes localizados em Jardim Camburi, Vitória - ES, visando melhorar
+	o atendimento do CBMES as ocorrências de incêndio urbano.
 
 ### 3.MINI-MUNDO<br>
 
