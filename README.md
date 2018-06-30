@@ -30,7 +30,7 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-![Tabelas](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/Tabelas%20do%20sistema.xlsx)
+![Tabelas](https://github.com/projeto-hidra-ifes/trab01/blob/master/Tabelas%20do%20sistema%2029%2006%202018%202034.xlsx)
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
