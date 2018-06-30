@@ -28,6 +28,8 @@ Sistema web proposto para gestão de hidrantes afim de atender as demandas do Co
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/ProjetoHidra.pdf)<br>
 
+[INTERFACE (MOCKUPS)](https://github.com/projeto-hidra-ifes/trab01/blob/master/ProjetoHidra.pdf)
+
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
 ![Tabelas](https://github.com/projeto-hidra-ifes/trab01/blob/master/Tabelas%20do%20sistema%2029%2006%202018%202034.xlsx)
