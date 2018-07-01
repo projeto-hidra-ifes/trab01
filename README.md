@@ -1169,6 +1169,8 @@ b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por 
         (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
     b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
     c) informar aqui o grupo de alunos/dupla que realizou o teste.
+[Backup completo do banco de dados - DBHidra.](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/DBHidra-Script-Drop-Table.sql)
+
 
 ### 12	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
         a) Outros grupos deverão ser capazes de restaurar o banco 
