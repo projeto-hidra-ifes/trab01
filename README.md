@@ -38,8 +38,8 @@ b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por 
 <li>Relatório da vazão maxima e padrão do hidrante (Mostra a capacidade normal e máxina supoertada pelo hidrante).</li>
 <li>Relatório de usuario (Mostra uma lista de usuários e seus endereço).</li>
 <li>Relatório de atualizações do hidrante (Mostra dados sobre troca de hidrante após sua substituição devido vencimento).</li>
-<li>Relatório de quantitativo de hidrantes por CEP (Mostra quantos hidrantes possui um determinado CEP).</li>
-    
+<li>Relatório de quantitativo de hidrantes por CEP (Mostra quantos hidrantes possui um determinado CEP).</li><br>
+
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
 ### 5.MODELO CONCEITUAL<br>
