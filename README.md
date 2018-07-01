@@ -1103,6 +1103,56 @@ b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por 
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.6-b.png?raw=true)<br>
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
+	1)
+		Select Endereco.Bairro, Endereco.Rua, Endereco.CEP From Historico
+			Inner Join Usuario on (Historico.fk_usuario = Usuario.id_P)
+			Inner Join Perfil on (Usuario.fk_Perfil = Perfil.id_P)
+			Inner Join Modulo on (Perfil.fk_Modulo = Modulo.id_P)
+			Inner Join Empresa on (Perfil.fk_Empresa = Empresa.id_P)
+			Inner Join Tipo_Perfil on (Perfil.fk_Tipo_Perfil = Tipo_Perfil.id_P)
+			Inner Join Hidrante on (Historico.fk_Hidrante = Hidrante.id_H)
+			Inner Join Vazao_Padrao on (Hidrante.fk_Vazao_Padrao = Vazao_Padrao.id_H)
+			Inner Join Tipo_Hidrante on (Hidrante.fk_Tipo_Hidrante = Tipo_Hidrante.id_H)
+			Inner Join Endereco on (Hidrante.fk_Endereco = Endereco.id_H)
+			Inner Join Manutencao on (Hidrante.fk_Manutencao = Manutencao.id_H)
+			Inner Join Conexao on (Hidrante.fk_Conexao = Conexao.id_H)
+		Group By Endereco.Bairro,Endereco.Rua, Endereco.CEP
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.7-a.png?raw=true)<br>
+
+	2)
+		Select Endereco.Bairro From Endereco
+		Group By Endereco.Bairro
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.7-b.png?raw=true)<br>
+
+	3)
+		Select Hidrante.Status as "Situação", Count(Hidrante.Status) as "Quantidade de Hidrantes" From Hidrante
+		Group By Hidrante.Status
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.7-c.png?raw=true)<br>
+
+	4)
+		Select Hidrante.Codigo as "Codigo do Hidrante", Max(Hidrante.data_criacao) as "Hidrante mais antigo"
+		From Hidrante
+		Group By Hidrante.Codigo, Hidrante.data_criacao
+		Order By Hidrante.data_criacao
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.7-d.png?raw=true)<br>
+
+	5)
+		Select Endereco.Bairro From Endereco
+		Group By Endereco.Bairro
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.7-e.png?raw=true)<br>
+
+	6)
+		Select Endereco.Bairro From Endereco
+		Group By Endereco.Bairro
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.7-f.png?raw=true)<br>
+
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
