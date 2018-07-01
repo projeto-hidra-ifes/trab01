@@ -650,9 +650,9 @@ b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por 
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
-	
-![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/DBHidra-Script-Drop-Table.sql)<br>
-	
+
+[Script para exclusão de tabelas existentes, criação de tabelas novas e inserção dos dados.](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/DBHidra-Script-Drop-Table.sql)
+
 	DROP TABLE IF EXISTS Perfil;
 	DROP TABLE IF EXISTS Modulo;
 	DROP TABLE IF EXISTS Empresa;
