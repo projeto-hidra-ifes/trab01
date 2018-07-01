@@ -31,15 +31,15 @@ Integrantes do grupo<br>
     b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
     *** Relatório de localização de hidrantes por endereço (GeoReferenciamento).
-    *** Relatório de empresa.
-    *** Relatório de status do hidrantes.
+    *** Relatório de empresa (Razão Social e os funcionários pertecentes que fazem parte do sistema).
+    *** Relatório de status do hidrantes (Mostra o hidrante e sua condição atual).
     *** Relatório de funcionalidade do hidrante.
-    *** Relatória dos tipos de conexões do hidrante.
-    *** Relatória de manutenção.
-    *** Relatório da vazão maxima e padrão do hidrante.
-    *** Relatório de usuario.
-    *** Relatório de atualizações do hidrante.
-    *** Relatório de quantitativo de hidrantes por CEP.
+    *** Relatória dos tipos de conexões do hidrante (Mostra o tipo de conexão disponivel no hidrante).
+    *** Relatória de manutenção (Mostra um hisstórico das manutenções realizados no hidrante).
+    *** Relatório da vazão maxima e padrão do hidrante (Mostra a capacidade normal e máxina supoertada pelo hidrante).
+    *** Relatório de usuario (Mostra uma lista de usuários e seus endereço).
+    *** Relatório de atualizações do hidrante (Mostra dados sobre troca de hidrante após sua substituição devido vencimento).
+    *** Relatório de quantitativo de hidrantes por CEP (Mostra quantos hidrantes possui um determinado CEP).
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
