@@ -19,7 +19,7 @@ Integrantes do grupo<br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Inicio.png?raw=true)<br>
-[Arquivo PDF do protótipo Balsamiq (MOCKUPS)](https://github.com/projeto-hidra-ifes/trab01/blob/master/ProjetoHidra.pdf)
+[Arquivo PDF do protótipo Balsamiq (MOCKUPS)](https://github.com/projeto-hidra-ifes/trab01/blob/master/ProjetoHidra%2001%2007%202018%200955.pdf)
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:<br>
 [TABELA DE DADOS DO SISTEMA](https://github.com/projeto-hidra-ifes/trab01/blob/master/Tabelas%20do%20sistema%2029%2006%202018%202034.xlsx)
