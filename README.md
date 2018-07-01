@@ -25,20 +25,20 @@ Integrantes do grupo<br>
 [TABELA DE DADOS DO SISTEMA](https://github.com/projeto-hidra-ifes/trab01/blob/master/Tabelas%20do%20sistema%2029%2006%202018%202034.xlsx)
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
+a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?<br>
 <p align="justify">O sistema Web Proposto para gestão de hidrantes disponibilizará aos seus usuários/colaboradores informações relevantes ao uso de hidrantes localizados, a princício, no bairro de Jardim Camburí em Vitória no Espírito Santo onde o índice de incendios urbanos, conforme dados estatísticos de 2017, foi o mais elevado. Dentre as possibilidades de relários o sistema atenderá uma das principais requisições do Corpo de Bombeiros junto a Cesan em relação a localização dos hidrantes e seu estado de uso.</p>
         
-	b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!</br>
-<li>Relatório de localização de hidrantes por endereço (GeoReferenciamento).
-Relatório de empresa (Razão Social e os funcionários pertecentes que fazem parte do sistema).
-Relatório de status do hidrantes (Mostra o hidrante e sua condição atual).
-Relatório de funcionalidade do hidrante.
-Relatória dos tipos de conexões do hidrante (Mostra o tipo de conexão disponivel no hidrante).
-Relatória de manutenção (Mostra um hisstórico das manutenções realizados no hidrante).
-Relatório da vazão maxima e padrão do hidrante (Mostra a capacidade normal e máxina supoertada pelo hidrante).
-Relatório de usuario (Mostra uma lista de usuários e seus endereço).
-Relatório de atualizações do hidrante (Mostra dados sobre troca de hidrante após sua substituição devido vencimento).
-Relatório de quantitativo de hidrantes por CEP (Mostra quantos hidrantes possui um determinado CEP).</li>
+b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!<br>
+<li>Relatório de localização de hidrantes por endereço (GeoReferenciamento).</li>
+<li>Relatório de empresa (Razão Social e os funcionários pertecentes que fazem parte do sistema).</li>
+<li>Relatório de status do hidrantes (Mostra o hidrante e sua condição atual).</li>
+<li>Relatório de funcionalidade do hidrante.</li>
+<li>Relatória dos tipos de conexões do hidrante (Mostra o tipo de conexão disponivel no hidrante).</li>
+<li>Relatória de manutenção (Mostra um hisstórico das manutenções realizados no hidrante).</li>
+<li>Relatório da vazão maxima e padrão do hidrante (Mostra a capacidade normal e máxina supoertada pelo hidrante).</li>
+<li>Relatório de usuario (Mostra uma lista de usuários e seus endereço).</li>
+<li>Relatório de atualizações do hidrante (Mostra dados sobre troca de hidrante após sua substituição devido vencimento).</li>
+<li>Relatório de quantitativo de hidrantes por CEP (Mostra quantos hidrantes possui um determinado CEP).</li>
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
