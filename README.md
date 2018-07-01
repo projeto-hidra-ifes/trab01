@@ -39,7 +39,7 @@ Integrantes do grupo<br>
     *** Relatório da vazão maxima e padrão do hidrante.
     *** Relatório de usuario.
     *** Relatório de atualizações do hidrante.
-    *** Relatório de descrições do estado em que se encontra o hidrante.
+    *** Relatório de quantitativo de hidrantes por CEP.
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
