@@ -21,7 +21,7 @@ Integrantes do grupo<br>
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Inicio.png?raw=true)<br>
 [Arquivo PDF do protótipo Balsamiq (MOCKUPS)](https://github.com/projeto-hidra-ifes/trab01/blob/master/ProjetoHidra%2001%2007%202018%200955.pdf)
 
-#### 4.1 TABELA DE DADOS DO SISTEMA:<br>
+#### 4.1 TABELA DE DADOS DO SISTEMA:
 [TABELA DE DADOS DO SISTEMA](https://github.com/projeto-hidra-ifes/trab01/blob/master/Tabelas%20do%20sistema%2029%2006%202018%202034.xlsx)
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
@@ -32,10 +32,10 @@ b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por 
 <li>Relatório de localização de hidrantes por endereço (GeoReferenciamento).</li>
 <li>Relatório de empresa (Razão Social e os funcionários pertecentes que fazem parte do sistema).</li>
 <li>Relatório de status do hidrantes (Mostra o hidrante e sua condição atual).</li>
-<li>Relatório de funcionalidade do hidrante.</li>
+<li>Relatório com o histórico de acesso ao sistema e log de eventos por usuário.</li>
 <li>Relatória dos tipos de conexões do hidrante (Mostra o tipo de conexão disponivel no hidrante).</li>
 <li>Relatória de manutenção (Mostra um hisstórico das manutenções realizados no hidrante).</li>
-<li>Relatório da vazão maxima e padrão do hidrante (Mostra a capacidade normal e máxina supoertada pelo hidrante).</li>
+<li>Relatório da vazão maxima e padrão do hidrante (Mostra a capacidade normal (padrão) e máxina suportada pelo hidrante).</li>
 <li>Relatório de usuario (Mostra uma lista de usuários e seus endereço).</li>
 <li>Relatório de atualizações do hidrante (Mostra dados sobre troca de hidrante após sua substituição devido vencimento).</li>
 <li>Relatório de quantitativo de hidrantes por CEP (Mostra quantos hidrantes possui um determinado CEP).</li><br>
