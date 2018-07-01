@@ -1141,14 +1141,18 @@ b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por 
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.7-d.png?raw=true)<br>
 
 	5)
-		Select Endereco.Bairro From Endereco
-		Group By Endereco.Bairro
+		Select Hidrante.Codigo as "Codigo do Hidrante", Max(Hidrante.data_criacao) as "Hidrante mais novo"
+		From Hidrante
+		Group By Hidrante.Codigo, Hidrante.data_criacao
+		Order By Hidrante.data_criacao Desc
 		
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.7-e.png?raw=true)<br>
 
 	6)
-		Select Endereco.Bairro From Endereco
-		Group By Endereco.Bairro
+		Select Count(Manutencao.Status) as "Hidrantes com Manutenção em Dia", Manutencao.data as "Data de Criação"
+		From Hidrante
+		Inner Join Manutencao on (Hidrante.fk_Manutencao = Manutencao.Id_h)
+		Group By Manutencao.Status, Manutencao.data
 		
 ![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.7-f.png?raw=true)<br>
 
