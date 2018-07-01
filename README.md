@@ -389,7 +389,7 @@ b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
 
-[TABELA DE DADOS DO SISTEMA](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/DBHidra-Script-Create-Insert.sql)
+[Script para criação de tabela e inserção dos dados](https://github.com/projeto-hidra-ifes/trab01/blob/master/arquivos/DBHidra-Script-Create-Insert.sql)
 
 	create table Modulo(
 		id_P serial not null,
