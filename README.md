@@ -1194,6 +1194,33 @@ b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por 
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+	1)
+	Select Hidrante.Codigo, Hidrante.Status, Tipo_Hidrante.Descricao as "Tipo de Hidrante"
+	From Hidrante
+	Right Outer Join Tipo_Hidrante
+	On (Tipo_Hidrante.Id_h = Hidrante.fk_Tipo_Hidrante)
+	Where status in ('operando', 'inoperante')
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.10-a.png?raw=true)<br>
+
+	2)
+	Select Hidrante.Codigo, Hidrante.Status, Tipo_Hidrante.Descricao as "Tipo de Hidrante"
+	From Hidrante
+	Right Outer Join Tipo_Hidrante
+	On (Tipo_Hidrante.Id_h = Hidrante.fk_Tipo_Hidrante)
+    	Where Descricao in ('coluna', 'recalque')
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.10-b.png?raw=true)<br>
+
+	3)
+	Select Hidrante.Codigo, Hidrante.Status, Endereco.Rua, Endereco.Numero, Endereco.Bairro
+	From Hidrante
+	Right Outer Join Endereco
+	On (Endereco.Id_h = Hidrante.fk_Endereco)
+	Where Endereco.Rua in ('Joao de Oliveira Soares', 'Pedro Busatto')
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.10-c.png?raw=true)<br>
+
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
 ### 11 Backup completo do banco de dados postgres 
