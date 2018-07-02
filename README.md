@@ -1158,6 +1158,38 @@ b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por 
 
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+	1)
+	Select Hidrante.Codigo, Hidrante.Status, Endereco.Rua, Endereco.Numero, Endereco.Bairro
+	From Hidrante
+	Right Outer Join Endereco
+	On (Endereco.Id_h = Hidrante.fk_Endereco)
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.8-a.png?raw=true)<br>
+
+	2)
+	Select Hidrante.Codigo, Hidrante.Status, Tipo_Hidrante.Descricao as "Tipo de Hidrante"
+	From Hidrante
+	Right Outer Join Tipo_Hidrante
+	On (Tipo_Hidrante.Id_h = Hidrante.fk_Tipo_Hidrante)
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.8-b.png?raw=true)<br>
+
+	3)
+	Select Hidrante.Codigo, Hidrante.Status, Manutencao.Status, Manutencao.Trabalho_Realizado
+	From Hidrante
+	Left Outer Join Manutencao
+	On (Manutencao.Id_h = Hidrante.fk_Manutencao)
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.8-c.png?raw=true)<br>
+
+	4)
+	Select Hidrante.Codigo, Hidrante.Status, Conexao.Tipo_Conexao, Conexao.Tamanho
+	From Hidrante
+	Left Outer Join Conexao
+	On (Conexao.Id_h = Hidrante.fk_Conexao)
+		
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.8-d.png?raw=true)<br>
+
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
