@@ -1192,7 +1192,44 @@ b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por 
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
+		Select Ha.Codigo, Ha.Status
+		From Hidrante ha, Hidrante hb
+		Where ha.codigo = 'VIX0001'
+	
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.9-a.png?raw=true)<br>
+	
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+	
+	1)
+	Create View View_Endereco as
+		Select Endereco.Bairro, Endereco.Rua From Historico
+		Inner Join Usuario on (Historico.fk_usuario = Usuario.id_P)
+		Inner Join Perfil on (Usuario.fk_Perfil = Perfil.id_P)
+		Inner Join Modulo on (Perfil.fk_Modulo = Modulo.id_P)
+		Inner Join Empresa on (Perfil.fk_Empresa = Empresa.id_P)
+		Inner Join Tipo_Perfil on (Perfil.fk_Tipo_Perfil = Tipo_Perfil.id_P)
+		Inner Join Hidrante on (Historico.fk_Hidrante = Hidrante.id_H)
+		Inner Join Vazao_Padrao on (Hidrante.fk_Vazao_Padrao = Vazao_Padrao.id_H)
+		Inner Join Tipo_Hidrante on (Hidrante.fk_Tipo_Hidrante = Tipo_Hidrante.id_H)
+		Inner Join Endereco on (Hidrante.fk_Endereco = Endereco.id_H)
+		Inner Join Manutencao on (Hidrante.fk_Manutencao = Manutencao.id_H)
+		Inner Join Conexao on (Hidrante.fk_Conexao = Conexao.id_H)
+	
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.9-a.png?raw=true)<br>
+
+	2)
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.9-a.png?raw=true)<br>
+
+	3)
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.9-a.png?raw=true)<br>
+
+	4)
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.9-a.png?raw=true)<br>
+
+	5)
+![alt text](https://github.com/projeto-hidra-ifes/trab01/blob/master/images/Img%209.9-a.png?raw=true)<br>
+
+	
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 	1)
 	Select Hidrante.Codigo, Hidrante.Status, Tipo_Hidrante.Descricao as "Tipo de Hidrante"
